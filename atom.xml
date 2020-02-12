@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yangchaoyi.vip/"/>
-  <updated>2020-02-12T13:56:20.717Z</updated>
+  <updated>2020-02-12T14:51:54.435Z</updated>
   <id>http://yangchaoyi.vip/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020 Linux系统应用基础教程  期末复习【整理】 目录</title>
+    <link href="http://yangchaoyi.vip/2020/02/12/Linux%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    <id>http://yangchaoyi.vip/2020/02/12/Linux%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
+    <published>2020-02-12T14:51:17.202Z</published>
+    <updated>2020-02-12T14:51:54.435Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="2020-linux系统应用基础教程-期末复习整理-第一章-认识linux"><a class="markdownIt-Anchor" href="#2020-linux系统应用基础教程-期末复习整理-第一章-认识linux"></a> 2020 Linux系统应用基础教程 期末复习【整理】 第一章 认识linux</h5><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103838844" target="_blank" rel="noopener">点击跳转第一章</a></p><a id="more"></a><h5 id="2020-linux系统应用基础教程-期末复习整理-第二章-系统的启动与关闭"><a class="markdownIt-Anchor" href="#2020-linux系统应用基础教程-期末复习整理-第二章-系统的启动与关闭"></a> 2020 Linux系统应用基础教程 期末复习【整理】 第二章 系统的启动与关闭</h5><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103838907" target="_blank" rel="noopener">点击跳转第二章</a></p><h5 id="2020-linux系统应用基础教程-期末复习整理-第三章-用户登录和账号管理"><a class="markdownIt-Anchor" href="#2020-linux系统应用基础教程-期末复习整理-第三章-用户登录和账号管理"></a> 2020 Linux系统应用基础教程 期末复习【整理】 第三章 用户登录和账号管理</h5><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103838936" target="_blank" rel="noopener">点击跳转第三章</a></p><h5 id="2020-linux系统应用基础教程-期末复习整理-第四章-文件系统管理"><a class="markdownIt-Anchor" href="#2020-linux系统应用基础教程-期末复习整理-第四章-文件系统管理"></a> 2020 Linux系统应用基础教程 期末复习【整理】 第四章 文件系统管理</h5><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103838975" target="_blank" rel="noopener">点击跳转第四章</a></p><p><img src="https://img-blog.csdnimg.cn/20200104234837814.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" /></p><h5 id="2020-linux系统应用基础教程-期末复习整理-第五章-磁盘文件与目录管理"><a class="markdownIt-Anchor" href="#2020-linux系统应用基础教程-期末复习整理-第五章-磁盘文件与目录管理"></a> 2020 Linux系统应用基础教程 期末复习【整理】 第五章 磁盘文件与目录管理</h5><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103839013" target="_blank" rel="noopener">点击跳转第五章</a></p><h5 id="2020-linux系统应用基础教程-期末复习整理第六章-linux的包管理"><a class="markdownIt-Anchor" href="#2020-linux系统应用基础教程-期末复习整理第六章-linux的包管理"></a> 2020 Linux系统应用基础教程 期末复习【整理】第六章 Linux的包管理</h5><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103839032" target="_blank" rel="noopener">点击跳转第六章</a></p><h5 id="2020-linux系统应用基础教程-期末复习整理第七章-进程管理"><a class="markdownIt-Anchor" href="#2020-linux系统应用基础教程-期末复习整理第七章-进程管理"></a> 2020 Linux系统应用基础教程 期末复习【整理】第七章 进程管理</h5><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103839048" target="_blank" rel="noopener">点击跳转第七章</a></p><h5 id="2020-linux系统应用基础教程-期末复习整理第八章-shell编程"><a class="markdownIt-Anchor" href="#2020-linux系统应用基础教程-期末复习整理第八章-shell编程"></a> 2020 Linux系统应用基础教程 期末复习【整理】第八章 shell编程</h5><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103839060" target="_blank" rel="noopener">点击跳转第八章</a></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">学如逆水行舟，不进则退</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;2020-linux系统应用基础教程-期末复习整理-第一章-认识linux&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#2020-linux系统应用基础教程-期末复习整理-第一章-认识linux&quot;&gt;&lt;/a&gt; 2020 Linux系统应用基础教程 期末复习【整理】 第一章 认识linux&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_42429718/article/details/103838844&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;点击跳转第一章&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="http://yangchaoyi.vip/categories/Linux/"/>
+    
+    
+      <category term="期末复习" scheme="http://yangchaoyi.vip/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    
+      <category term="目录" scheme="http://yangchaoyi.vip/tags/%E7%9B%AE%E5%BD%95/"/>
+    
+      <category term="Linux" scheme="http://yangchaoyi.vip/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020 Java EE应用开发 期末复习 【整理】 目录</title>
+    <link href="http://yangchaoyi.vip/2020/02/12/JavaEE%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    <id>http://yangchaoyi.vip/2020/02/12/JavaEE%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
+    <published>2020-02-12T14:48:24.447Z</published>
+    <updated>2020-02-12T14:49:35.342Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1-引言"><a class="markdownIt-Anchor" href="#1-引言"></a> 1、引言</h4><p><mark>平时实验bug，实验作业在如下专栏，用于参考学习↓<br />一学期过去了，不知不觉博客又写了一些，正好得空整理一下自己本学期做过的实验，方便自己查阅与复习!</mark><br />gkd：<a href="https://blog.csdn.net/weixin_42429718/category_9443603.html" target="_blank" rel="noopener">跳转至——Java EE实用教程（ 第 3 版 ）专栏</a></p><a id="more"></a><p>======================  <font color=red>(考点，6点左右更新)</font>===========================</p><blockquote><p>1</p><blockquote><p>2</p><blockquote><p>3</p><blockquote><p>4</p><blockquote><p>5</p></blockquote></blockquote></blockquote></blockquote></blockquote><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*重点*/</span></span><br><span class="line"><span class="comment">/*个人觉得比较重要的一部分，还在更新ing*/</span></span><br><span class="line">jsp九大内置对象（可能简答题，选择题，连线题）</span><br><span class="line"></span><br><span class="line">书p60 dispatcher类型 该结果类型是默认的结果类型 通常处理jsp</span><br><span class="line"></span><br><span class="line">#的3点作用①非根对象 ②声明Map ③选择和投影</span><br><span class="line">?：获得所有符合逻辑的元素</span><br><span class="line">^:  获得符合逻辑的第一个元素</span><br><span class="line">$：获得符合逻辑的最后一个元素</span><br><span class="line"></span><br><span class="line">&lt;s:action&gt;标签 当executeResult=<span class="keyword">true</span>时，URL没有改变</span><br><span class="line"></span><br><span class="line">&lt;s:property&gt;标签 作用是输出value属性特定的值</span><br><span class="line"></span><br><span class="line">&lt;s:param&gt;标签 </span><br><span class="line">&lt;s:param name="name"&gt;ycy&lt;/s:param&gt;</span><br><span class="line">表示字符串<span class="string">"ycy"</span></span><br><span class="line">&lt;s:param name=<span class="string">"name"</span> value=<span class="string">"ycy"</span>/&gt;</span><br><span class="line">表示为<span class="string">"ycy"</span>对象的值</span><br><span class="line">如果想要指定为字符串进行如下操作:</span><br><span class="line">&lt;s:param name=<span class="string">"name"</span> value=<span class="string">"'ycy'"</span>/&gt;</span><br><span class="line"></span><br><span class="line">&lt;s:baen&gt;标签 &lt;s:include&gt;标签 &lt;s:push&gt;标签 </span><br><span class="line">&lt;s:set&gt;标签 默认为action</span><br><span class="line"></span><br><span class="line">&lt;s:subset&gt;标签具有过滤作用</span><br><span class="line"></span><br><span class="line">&lt;s:token&gt;标签用来解决表单多次提交问题</span><br><span class="line"></span><br><span class="line">如何在Struts表单标签中加入CSS?</span><br><span class="line">cssStyle:指定表单元素的CSS样式</span><br><span class="line"></span><br><span class="line">在Web开发中，客户端向服务器传送的数据均为String类型</span><br><span class="line"></span><br><span class="line">类型转换当中，value是需要转换的数据,toType是想转换的目标类型</span><br><span class="line"></span><br><span class="line">如果配置全局类型转换器，在src下建立配置文件<span class="string">"xwork-conversion.properties"</span></span><br><span class="line">（与struts.xml文件在同一目录下）</span><br><span class="line"></span><br><span class="line">拦截器：</span><br><span class="line">①conversionError:负责处理类型转换错误的拦截器</span><br><span class="line">②token:用于阻止重复提交</span><br><span class="line"></span><br><span class="line">&lt;s:token&gt;&lt;/s:token&gt;（转成hidden，隐藏表单）</span><br><span class="line"></span><br><span class="line">获取文件路径：</span><br><span class="line">String xxx=ServletActionContext.getServletContext().getRealPath(文件夹名)</span><br><span class="line"></span><br><span class="line">主键映射，<span class="keyword">native</span>表示是由数据库对id赋值</span><br><span class="line"></span><br><span class="line">p196数据类型之间的转化关系表</span><br><span class="line"></span><br><span class="line">注册类型转换器</span><br><span class="line">配置文件名称“action类名-conversion.properties”格式</span><br><span class="line">需要同action放在同一位置（例org.action包下）</span><br><span class="line">注册信息：</span><br><span class="line">变量名=包名.类名</span><br><span class="line"></span><br><span class="line">Hibernate配置文件<span class="string">"hibernate.cfg.xml"</span></span><br><span class="line">工具包:HibernateSessionFactory.java</span><br><span class="line"></span><br><span class="line">Spring配置文件:applicationContext.xml</span><br><span class="line"></span><br><span class="line">简答题（可能考点）：</span><br><span class="line">Struts <span class="number">2</span>工作流程（<span class="number">6</span>点）</span><br><span class="line"><span class="function">p220 <span class="title">get</span><span class="params">()</span>和<span class="title">load</span><span class="params">()</span>方法区别</span></span><br><span class="line"><span class="function">JSP常用内置对象、作用及主要方法</span></span><br><span class="line"><span class="function">JDBC:Connection、<span class="title">statement</span><span class="params">(PreparedStatement)</span>、ResultSet的创建及使用</span></span><br><span class="line"><span class="function">标签含义</span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function">编程题（可能）：</span></span><br><span class="line"><span class="function">①Struts 2控制标签</span></span><br><span class="line"><span class="function">②Struts登录注册</span></span><br><span class="line"><span class="function">③输入检验和类型转换<span class="params">(考的话感觉会比较难)</span></span></span><br><span class="line"><span class="function">④Spring依赖注入  <span class="comment">//在目录当中都可以找到相应实验代码</span></span></span><br><span class="line"><span class="function">⑤HQL Hibernate对数据库操作</span></span><br></pre></td></tr></table></figure><p><font color=red>ps:整理并不是全部，还需结合课本来</p><h4 id="2-jsp常用内置对象-作用及主要方法"><a class="markdownIt-Anchor" href="#2-jsp常用内置对象-作用及主要方法"></a> 2、JSP常用内置对象、作用及主要方法</h4><p>答：<a href="https://blog.csdn.net/weixin_42429718/article/details/103864042" target="_blank" rel="noopener">跳转至——2020 jsp九大内置对象及其常用方法【整理】</a></p><h4 id="3-struts-2的工作流程strutsxml的主要标签"><a class="markdownIt-Anchor" href="#3-struts-2的工作流程strutsxml的主要标签"></a> 3、Struts 2的工作流程，Struts.xml的主要标签</h4><blockquote><p>更新于2020-1-7 12:50</p></blockquote><p>答：<a href="https://blog.csdn.net/weixin_42429718/article/details/103872326" target="_blank" rel="noopener">跳转至——Struts 2的工作原理及工作流程 【整理】</a></p><h4 id="4-jdbcconnection-statementpreparedstatement-resultset的创建及使用"><a class="markdownIt-Anchor" href="#4-jdbcconnection-statementpreparedstatement-resultset的创建及使用"></a> 4、JDBC:Connection、statement(PreparedStatement)、ResultSet的创建及使用</h4><p>答：<a href="https://blog.csdn.net/weixin_42429718/article/details/103864309" target="_blank" rel="noopener">跳转至——【三大接口】JDBC:Connection、statement(PreparedStatement)、ResultSet的创建及使用 【整理】</a></p><h4 id="5-ognl-表达式的使用常用的structs-2标签重点控制标签if-else-if-else-iterator-merge-generator-sort-subset"><a class="markdownIt-Anchor" href="#5-ognl-表达式的使用常用的structs-2标签重点控制标签if-else-if-else-iterator-merge-generator-sort-subset"></a> 5、OGNL 表达式的使用，常用的Structs 2标签，重点：控制标签（if * , else if ,else ,iterator  *,merge,  generator , sort *,subset *）</h4><p>答：<a href="https://blog.csdn.net/weixin_42429718/article/details/103864753" target="_blank" rel="noopener">跳转至——常用Struts 2标签用法 【整理】</a></p><blockquote><p>更新于2020-1-7 12:35</p></blockquote><h6 id="51-的作用"><a class="markdownIt-Anchor" href="#51-的作用"></a> 5.1 #的作用？</h6><p>①非根对象 ②声明Map ③选择和投影</p><hr><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102662100" target="_blank" rel="noopener">跳转至——熟悉action标签的用法</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102662137" target="_blank" rel="noopener">跳转至——熟悉bean标签的用法</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102662163" target="_blank" rel="noopener">跳转至——熟悉include标签的用法</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102662197" target="_blank" rel="noopener">跳转至——熟悉if、elseif和else标签的用法</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102662214" target="_blank" rel="noopener">跳转至——熟悉iterator标签的用法</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102662234" target="_blank" rel="noopener">跳转至——熟悉append标签的用法</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102662248" target="_blank" rel="noopener">跳转至——熟悉generator标签的用法</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102662261" target="_blank" rel="noopener">跳转至——熟悉sort标签的用法</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102662281" target="_blank" rel="noopener">跳转至——熟悉subset标签的用法</a></p><h4 id="6-struts中输入校验和类型转换的实现"><a class="markdownIt-Anchor" href="#6-struts中输入校验和类型转换的实现"></a> 6、Struts中输入校验和类型转换的实现</h4><p><mark>客户端向服务器传递的数据均为String类型</mark></p><p>答：<a href="https://blog.csdn.net/weixin_42429718/article/details/103865377" target="_blank" rel="noopener">跳转至——Struts 2中输入校验和类型转换的实现 【整理】</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103108601" target="_blank" rel="noopener">跳转至——Struts2+Hibernate实现完整的注册和登录功能（数据校验）</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102873811" target="_blank" rel="noopener">跳转至——Struts2校验框架 【校验学生的基本信息】【validators】</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102873608" target="_blank" rel="noopener">跳转至——Struts2 框架 实现生日形式转化 + 根据当前系统日期显示年龄（实岁）</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102874079" target="_blank" rel="noopener">跳转至——Struts实现图片上传功能【校验图片格式】</a></p><h4 id="7-hibernate配置文件与核心接口"><a class="markdownIt-Anchor" href="#7-hibernate配置文件与核心接口"></a> 7、Hibernate配置文件与核心接口</h4><p>答：<a href="https://blog.csdn.net/weixin_42429718/article/details/103865482" target="_blank" rel="noopener">跳转至——2020 Hibernate之核心接口 【整理】</a></p><h4 id="8-hibernate映射机制重点对象关系映射映射文件xxxhbmxml的缩写"><a class="markdownIt-Anchor" href="#8-hibernate映射机制重点对象关系映射映射文件xxxhbmxml的缩写"></a> 8、Hibernate映射机制（重点：对象关系映射），映射文件XXX.hbm.xml的缩写</h4><p>答：<mark>主要还是结合平常做过的实验来看</mark></p><p><a href="https://blog.csdn.net/weixin_42429718/category_9443603.html" target="_blank" rel="noopener">跳转至——JavaEE实验专栏</a></p><hr><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103296728" target="_blank" rel="noopener">跳转至——采用“每个类一个数据表”的方式，实现继承关系映射</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103297569" target="_blank" rel="noopener">跳转至——采用“共享一个数据库表”的方式，实现继承关系映射</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103304513" target="_blank" rel="noopener">跳转至——在Hibernate中实现一对一关联关系的映射</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103314431" target="_blank" rel="noopener">跳转至——在Hibernate中实现一对多关联关系的映射①</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103305136" target="_blank" rel="noopener">跳转至——在Hibernate中实现一对多关联关系的映射②</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103318565" target="_blank" rel="noopener">跳转至——在Hibernate中实现多对多关联关系的映射</a></p><hr><h4 id="9-hql和hibernate分页查询"><a class="markdownIt-Anchor" href="#9-hql和hibernate分页查询"></a> 9、HQL和Hibernate分页查询</h4><p>答：<a href="https://blog.csdn.net/weixin_42429718/category_9443603.html" target="_blank" rel="noopener">跳转至——JavaEE实验专栏</a></p><h4 id="10-使用hibernate对持久化对象进行操作session对象的常用方法如何通过hibernate实现数据库增删改查等操作"><a class="markdownIt-Anchor" href="#10-使用hibernate对持久化对象进行操作session对象的常用方法如何通过hibernate实现数据库增删改查等操作"></a> 10、使用Hibernate对持久化对象进行操作（Session对象的常用方法），如何通过Hibernate实现数据库增删改查等操作</h4><p>答：<a href="https://blog.csdn.net/weixin_42429718/category_9443603.html" target="_blank" rel="noopener">跳转至——JavaEE实验专栏</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103114869" target="_blank" rel="noopener">跳转至——通过“单独定义主键类”实现“复合自然主键的映射”，并编写测试代码实现数据的增、删、改、查等操作</a></p><h4 id="11-spring中的依赖注入和配置文件"><a class="markdownIt-Anchor" href="#11-spring中的依赖注入和配置文件"></a> 11、Spring中的依赖注入和配置文件</h4><p>答：<mark>结合做过的实验了解</mark></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103472696" target="_blank" rel="noopener">跳转至——第一个Spring程序（Hello ACM！）</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103472819" target="_blank" rel="noopener">跳转至——JavaEE之Spring的核心机制—依赖注入 【趣味吃水果入门】</a></p><p><img src="https://img-blog.csdnimg.cn/20200106223209233.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" /><br /><font color=red>ps:Web技术最后大题是手写登录注册，这学期从头到尾也是登录注册，张无忌、小龙女…登录注册总会扯上关系，还是整理一下</font></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/102662313" target="_blank" rel="noopener">跳转至——使用Struts2标签设计一个电子商务网站用户注册界面</a></p><p><a href="https://blog.csdn.net/weixin_42429718/article/details/103741183" target="_blank" rel="noopener">跳转至——使用SSH框架实现简单的登录注册功能</a></p><p><mark>复习的时候再补充补充缺的，洗洗睡了…</mark><br /><img src="https://img-blog.csdnimg.cn/20200106224731341.jpg" alt="在这里插入图片描述" /></p><p><font color=chocolate>有任何问题可以评论留言一下，欢迎关注点赞一波,欢迎来白嫖~</a><br /><img src="https://img-blog.csdnimg.cn/20200106224719501.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" /></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">学如逆水行舟，不进则退</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1-引言&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#1-引言&quot;&gt;&lt;/a&gt; 1、引言&lt;/h4&gt;
+&lt;p&gt;&lt;mark&gt;平时实验bug，实验作业在如下专栏，用于参考学习↓&lt;br /&gt;
+一学期过去了，不知不觉博客又写了一些，正好得空整理一下自己本学期做过的实验，方便自己查阅与复习!&lt;/mark&gt;&lt;br /&gt;
+gkd：&lt;a href=&quot;https://blog.csdn.net/weixin_42429718/category_9443603.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;跳转至——Java EE实用教程（ 第 3 版 ）专栏&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Java EE" scheme="http://yangchaoyi.vip/categories/Java-EE/"/>
+    
+    
+      <category term="JavaEE" scheme="http://yangchaoyi.vip/tags/JavaEE/"/>
+    
+      <category term="期末复习" scheme="http://yangchaoyi.vip/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    
+      <category term="目录" scheme="http://yangchaoyi.vip/tags/%E7%9B%AE%E5%BD%95/"/>
+    
+  </entry>
   
   <entry>
     <title>【超详细】基于 Docker搭建 WordPress动态博客（一行命令搭建博客系统）</title>
@@ -41,11 +99,11 @@
       <category term="Docker" scheme="http://yangchaoyi.vip/categories/Docker/"/>
     
     
-      <category term="博客" scheme="http://yangchaoyi.vip/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Docker" scheme="http://yangchaoyi.vip/tags/Docker/"/>
     
       <category term="工具安装" scheme="http://yangchaoyi.vip/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
+    
+      <category term="博客" scheme="http://yangchaoyi.vip/tags/%E5%8D%9A%E5%AE%A2/"/>
     
       <category term="黑科技" scheme="http://yangchaoyi.vip/tags/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
     
@@ -54,39 +112,9 @@
   </entry>
   
   <entry>
-    <title>完全免费的下载神器，这速度，还需要IDM吗？</title>
-    <link href="http://yangchaoyi.vip/2020/02/12/%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%99%A8/"/>
-    <id>http://yangchaoyi.vip/2020/02/12/%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%99%A8/</id>
-    <published>2020-02-12T13:39:30.595Z</published>
-    <updated>2020-02-12T13:43:16.691Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong><font color=chocolate>NDM（Neat Download Manager）</strong></p><p>NDM是一款完全免费的多线程下载工具，他支持多种网络下载协议，最大连接数同样支持32线程。（在Setting里面修改即可）</p><a id="more"></a><p><img src="https://img-blog.csdnimg.cn/20200111000441600.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" /></p><p>另外，这款软件的体积仅有：850kb，连1MB都不足。这点就可以看出这款是多么的简洁，但这并不意味着他的功能少。</p><p>最后附上下载链接：</p><p>链接：<a href="https://pan.baidu.com/s/14U0Tswd0sUbLeo21iK46YA" target="_blank" rel="noopener">https://pan.baidu.com/s/14U0Tswd0sUbLeo21iK46YA</a><br />提取码：pkgk</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">学如逆水行舟，不进则退</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;&lt;font color=chocolate&gt;NDM（Neat Download Manager）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;NDM是一款完全免费的多线程下载工具，他支持多种网络下载协议，最大连接数同样支持32线程。（在Setting里面修改即可）&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="工具" scheme="http://yangchaoyi.vip/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="工具安装" scheme="http://yangchaoyi.vip/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
-    
-      <category term="黑科技" scheme="http://yangchaoyi.vip/tags/%E9%BB%91%E7%A7%91%E6%8A%80/"/>
-    
-      <category term="下载神奇" scheme="http://yangchaoyi.vip/tags/%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%A5%87/"/>
-    
-      <category term="IDM" scheme="http://yangchaoyi.vip/tags/IDM/"/>
-    
-  </entry>
-  
-  <entry>
     <title>win10家庭版安装 Docker for Windows</title>
-    <link href="http://yangchaoyi.vip/2020/02/12/win10%E5%AE%B6%E5%BA%AD%E7%89%88%E5%AE%89%E8%A3%85%20Docker%20for%20Windows/"/>
-    <id>http://yangchaoyi.vip/2020/02/12/win10%E5%AE%B6%E5%BA%AD%E7%89%88%E5%AE%89%E8%A3%85%20Docker%20for%20Windows/</id>
+    <link href="http://yangchaoyi.vip/2020/02/12/win10%E5%AE%B6%E5%BA%AD%E7%89%88%E5%AE%89%E8%A3%85%20Docker/"/>
+    <id>http://yangchaoyi.vip/2020/02/12/win10%E5%AE%B6%E5%BA%AD%E7%89%88%E5%AE%89%E8%A3%85%20Docker/</id>
     <published>2020-02-12T13:37:42.939Z</published>
     <updated>2020-02-12T13:38:43.463Z</updated>
     
@@ -103,18 +131,18 @@
       <category term="Docker" scheme="http://yangchaoyi.vip/categories/Docker/"/>
     
     
+      <category term="Win10" scheme="http://yangchaoyi.vip/tags/Win10/"/>
+    
       <category term="Docker" scheme="http://yangchaoyi.vip/tags/Docker/"/>
     
       <category term="工具安装" scheme="http://yangchaoyi.vip/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
-    
-      <category term="Win10" scheme="http://yangchaoyi.vip/tags/Win10/"/>
     
   </entry>
   
   <entry>
     <title>2020 愿远方依旧有篮球为伴 致敬24号 科比</title>
-    <link href="http://yangchaoyi.vip/2020/02/12/%E6%84%BF%E8%BF%9C%E6%96%B9%E4%BE%9D%E6%97%A7%E6%9C%89%E7%AF%AE%E7%90%83%E4%B8%BA%E4%BC%B4%20%E8%87%B4%E6%95%AC24%E5%8F%B7%20%E7%A7%91%E6%AF%94/"/>
-    <id>http://yangchaoyi.vip/2020/02/12/%E6%84%BF%E8%BF%9C%E6%96%B9%E4%BE%9D%E6%97%A7%E6%9C%89%E7%AF%AE%E7%90%83%E4%B8%BA%E4%BC%B4%20%E8%87%B4%E6%95%AC24%E5%8F%B7%20%E7%A7%91%E6%AF%94/</id>
+    <link href="http://yangchaoyi.vip/2020/02/12/%E8%87%B4%E6%95%AC24%E5%8F%B7%E7%A7%91%E6%AF%94/"/>
+    <id>http://yangchaoyi.vip/2020/02/12/%E8%87%B4%E6%95%AC24%E5%8F%B7%E7%A7%91%E6%AF%94/</id>
     <published>2020-02-12T13:36:01.926Z</published>
     <updated>2020-02-12T13:56:36.118Z</updated>
     
@@ -142,8 +170,8 @@
   
   <entry>
     <title>2020 零基础教宝塔面板MySQL通过Navicat连接数据库 【整理】</title>
-    <link href="http://yangchaoyi.vip/2020/02/12/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFMySQL%E9%80%9A%E8%BF%87Navicat%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%20%E3%80%90%E6%95%B4%E7%90%86%E3%80%91/"/>
-    <id>http://yangchaoyi.vip/2020/02/12/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFMySQL%E9%80%9A%E8%BF%87Navicat%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%20%E3%80%90%E6%95%B4%E7%90%86%E3%80%91/</id>
+    <link href="http://yangchaoyi.vip/2020/02/12/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFNavicat%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>http://yangchaoyi.vip/2020/02/12/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFNavicat%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
     <published>2020-02-12T13:33:08.595Z</published>
     <updated>2020-02-12T13:56:06.183Z</updated>
     
@@ -160,6 +188,8 @@
       <category term="阿里云" scheme="http://yangchaoyi.vip/categories/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
     
+      <category term="Linux" scheme="http://yangchaoyi.vip/tags/Linux/"/>
+    
       <category term="服务器" scheme="http://yangchaoyi.vip/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
       <category term="阿里云" scheme="http://yangchaoyi.vip/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
@@ -168,14 +198,12 @@
     
       <category term="宝塔面板" scheme="http://yangchaoyi.vip/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
-      <category term="Linux" scheme="http://yangchaoyi.vip/tags/Linux/"/>
-    
   </entry>
   
   <entry>
     <title>2020（有感而发）常说&quot;三分技术，七分人品&quot; 在计算机领域真的是这样的吗？</title>
-    <link href="http://yangchaoyi.vip/2020/02/12/%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%A2%86%E5%9F%9F%E7%9C%9F%E7%9A%84%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84%E5%90%97/"/>
-    <id>http://yangchaoyi.vip/2020/02/12/%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%A2%86%E5%9F%9F%E7%9C%9F%E7%9A%84%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84%E5%90%97/</id>
+    <link href="http://yangchaoyi.vip/2020/02/12/%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%A2%86%E5%9F%9F/"/>
+    <id>http://yangchaoyi.vip/2020/02/12/%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%A2%86%E5%9F%9F/</id>
     <published>2020-02-12T13:31:15.965Z</published>
     <updated>2020-02-12T13:32:10.485Z</updated>
     
@@ -200,17 +228,16 @@
   
   <entry>
     <title>2020 这或许是程序员最真实工作精神状态？</title>
-    <link href="http://yangchaoyi.vip/2020/02/12/%E8%BF%99%E6%88%96%E8%AE%B8%E6%98%AF%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%80%E7%9C%9F%E5%AE%9E%E5%B7%A5%E4%BD%9C%E7%B2%BE%E7%A5%9E%E7%8A%B6%E6%80%81%EF%BC%9F/"/>
-    <id>http://yangchaoyi.vip/2020/02/12/%E8%BF%99%E6%88%96%E8%AE%B8%E6%98%AF%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%80%E7%9C%9F%E5%AE%9E%E5%B7%A5%E4%BD%9C%E7%B2%BE%E7%A5%9E%E7%8A%B6%E6%80%81%EF%BC%9F/</id>
+    <link href="http://yangchaoyi.vip/2020/02/12/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%80%E7%9C%9F%E5%AE%9E%E5%B7%A5%E4%BD%9C/"/>
+    <id>http://yangchaoyi.vip/2020/02/12/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%80%E7%9C%9F%E5%AE%9E%E5%B7%A5%E4%BD%9C/</id>
     <published>2020-02-12T13:26:56.125Z</published>
-    <updated>2020-02-12T13:57:14.582Z</updated>
+    <updated>2020-02-12T14:46:48.103Z</updated>
     
-    <content type="html"><![CDATA[<h6>【1】程序员的一周穿搭<img src="https://img-blog.csdnimg.cn/20200125122600599.gif"  width=30%  height=30% align=center><a id="more"></a><h6>【2】这个问题我遇到过，小意思... <img src="https://img-blog.csdnimg.cn/20200125133554570.gif"  width=35% align=center><h6>【3】结对编程选了一个猪队友<img src="https://img-blog.csdnimg.cn/20200125133606132.gif" width=35% align=center><h6>【4】原本只是想拆分模块、解耦 <img src="https://img-blog.csdnimg.cn/20200125133635298.gif" width=35% align=center><h6>【5】程序员真实工作精神状态<img src="https://img-blog.csdnimg.cn/20200125133804385.gif" width=35% align=center><h6>【6】找好工作准备跳槽的你<img src="https://img-blog.csdnimg.cn/20200125133749150.gif" width=35% align=center><h6>【7】下一站科技软件园，请给有需要的程序员让个座 </center><img   align=center src="https://img-blog.csdnimg.cn/20200125121326915.gif"   width=35% height=30%><h6>【8】程序员简历中的自己 <img src="https://img-blog.csdnimg.cn/20200125133712157.gif" width=35% align=center><h6>【9】当我遇到一个可重现的错误时 <img src="https://img-blog.csdnimg.cn/20200125133649356.gif" width=35% align=center><h6>【10】想早退，被领导发现了 <img src="https://img-blog.csdnimg.cn/20200125133730262.gif" width=35% align=center><h6>【11】当实习生修复一个Bug的时候 <img src="https://img-blog.csdnimg.cn/2020012513373292.gif" width=35% align=center><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">学如逆水行舟，不进则退</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h6>【1】程序员的一周穿搭<a id="more"></a><img src="https://img-blog.csdnimg.cn/20200125122600599.gif"  width=30%  height=30% align=center><h6>【2】这个问题我遇到过，小意思... <img src="https://img-blog.csdnimg.cn/20200125133554570.gif"  width=35% align=center><h6>【3】结对编程选了一个猪队友<img src="https://img-blog.csdnimg.cn/20200125133606132.gif" width=35% align=center><h6>【4】原本只是想拆分模块、解耦 <img src="https://img-blog.csdnimg.cn/20200125133635298.gif" width=35% align=center><h6>【5】程序员真实工作精神状态<img src="https://img-blog.csdnimg.cn/20200125133804385.gif" width=35% align=center><h6>【6】找好工作准备跳槽的你<img src="https://img-blog.csdnimg.cn/20200125133749150.gif" width=35% align=center><h6>【7】下一站科技软件园，请给有需要的程序员让个座 </center><img   align=center src="https://img-blog.csdnimg.cn/20200125121326915.gif"   width=35% height=30%><h6>【8】程序员简历中的自己 <img src="https://img-blog.csdnimg.cn/20200125133712157.gif" width=35% align=center><h6>【9】当我遇到一个可重现的错误时 <img src="https://img-blog.csdnimg.cn/20200125133649356.gif" width=35% align=center><h6>【10】想早退，被领导发现了 <img src="https://img-blog.csdnimg.cn/20200125133730262.gif" width=35% align=center><h6>【11】当实习生修复一个Bug的时候 <img src="https://img-blog.csdnimg.cn/2020012513373292.gif" width=35% align=center><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">学如逆水行舟，不进则退</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       &lt;h6&gt;【1】程序员的一周穿搭
-&lt;img src=&quot;https://img-blog.csdnimg.cn/20200125122600599.gif&quot;  width=30%  height=30% align=center&gt;
     
     </summary>
     
@@ -255,8 +282,8 @@
   
   <entry>
     <title>2020 网络课 智慧树自动刷课代码，自动跳转，自动答题并关闭弹窗，自动1.5倍速静音</title>
-    <link href="http://yangchaoyi.vip/2020/02/12/%E7%BD%91%E7%BB%9C%E8%AF%BE%20%E6%99%BA%E6%85%A7%E6%A0%91/"/>
-    <id>http://yangchaoyi.vip/2020/02/12/%E7%BD%91%E7%BB%9C%E8%AF%BE%20%E6%99%BA%E6%85%A7%E6%A0%91/</id>
+    <link href="http://yangchaoyi.vip/2020/02/12/%E7%BD%91%E7%BB%9C%E8%AF%BE/"/>
+    <id>http://yangchaoyi.vip/2020/02/12/%E7%BD%91%E7%BB%9C%E8%AF%BE/</id>
     <published>2020-02-12T12:57:26.465Z</published>
     <updated>2020-02-12T13:56:41.063Z</updated>
     
@@ -315,8 +342,8 @@
   
   <entry>
     <title>【ACM刷题专题】这个假期一起来刷题把，刷完冲击区域赛，刷完拿不到奖随便打！</title>
-    <link href="http://yangchaoyi.vip/2020/02/12/%E5%88%B7%E5%AE%8C%E6%8B%BF%E4%B8%8D%E5%88%B0%E5%A5%96%E9%9A%8F%E4%BE%BF%E6%89%93%EF%BC%81/"/>
-    <id>http://yangchaoyi.vip/2020/02/12/%E5%88%B7%E5%AE%8C%E6%8B%BF%E4%B8%8D%E5%88%B0%E5%A5%96%E9%9A%8F%E4%BE%BF%E6%89%93%EF%BC%81/</id>
+    <link href="http://yangchaoyi.vip/2020/02/12/%E5%88%B7/"/>
+    <id>http://yangchaoyi.vip/2020/02/12/%E5%88%B7/</id>
     <published>2020-02-12T12:49:54.019Z</published>
     <updated>2020-02-12T13:41:14.411Z</updated>
     

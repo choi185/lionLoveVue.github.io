@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="author" content="Yang Chao Yi" />
+
+
+
+<meta name="description" content="引言 Python 是一种通用的高级编程语言。用它可以做许多事，比如开发桌面 GUI 应用程序、网站和 Web 应用程序等。 并且，通过处理常见的编程任务，Python 能让开发者专注应用程序的核心功能。此外，Python 语言的简单语法规则进一步简化了代码库的可读性和应用程序的可维护性。 与其他编程语言相比，Python 的优势在于：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【Python 】25 个有用的 Python 代码片段来帮助你的日常工作">
+<meta property="og:url" content="http://yangchaoyi.vip/2020/02/12/25%20%E4%B8%AA%E6%9C%89%E7%94%A8%E7%9A%84%20Python%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/index.html">
+<meta property="og:site_name" content="Chocolate&#39;s Blog">
+<meta property="og:description" content="引言 Python 是一种通用的高级编程语言。用它可以做许多事，比如开发桌面 GUI 应用程序、网站和 Web 应用程序等。 并且，通过处理常见的编程任务，Python 能让开发者专注应用程序的核心功能。此外，Python 语言的简单语法规则进一步简化了代码库的可读性和应用程序的可维护性。 与其他编程语言相比，Python 的优势在于：">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200208132400835.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70">
+<meta property="article:published_time" content="2020-02-12T13:21:47.027Z">
+<meta property="article:modified_time" content="2020-02-12T13:57:02.900Z">
+<meta property="article:author" content="Yang Chao Yi">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="编程语言">
+<meta property="article:tag" content="Java">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200208132400835.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70">
+
+<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="Chocolate&#39;s Blog" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/img/favicon.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/yellow/pace-theme-minimal.css" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>【Python 】25 个有用的 Python 代码片段来帮助你的日常工作 | Chocolate&#39;s Blog</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: false,
+        isPost: true,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: true
+    }
+</script>
+
+
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?c1d5a78eab5d8a833cbb8f70d139938c";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/head.jpg" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">Yang Chao Yi</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">座右铭:学如逆水行舟，不进则退</p>
+        
+
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">文章归档</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/message/">关于我&amp;留言板</a></li>
+                        
+                            <li><a href="/about/">个人简历</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa GitHub" href="https://github.com/Chocolate666/Chocolate.github.io" target="_blank" rel="noopener" title="GitHub"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa CSDN" href="https://blog.csdn.net/weixin_42429718" target="_blank" rel="noopener" title="CSDN"></a>
+                            
+                                <a class="fa 网易云音乐" href="http://music.163.com/m/user/home?id=1426571934" target="_blank" rel="noopener" title="网易云音乐"></a>
+                            
+                                <a class="fa bilibili" href="https://space.bilibili.com/351534170" target="_blank" rel="noopener" title="bilibili"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/24%E5%8F%B7/" rel="tag">24号</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Docker/" rel="tag">Docker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IDM/" rel="tag">IDM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NBA/" rel="tag">NBA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Navicat/" rel="tag">Navicat</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Win10/" rel="tag">Win10</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/WordPress/" rel="tag">WordPress</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/acm/" rel="tag">acm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/" rel="tag">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vue/" rel="tag">vue</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yelee%E4%B8%BB%E9%A2%98/" rel="tag">yelee主题</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%A5%87/" rel="tag">下载神奇</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%B7%E8%AF%BE/" rel="tag">刷课</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%B7%E9%A2%98/" rel="tag">刷题</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A8%B1%E4%B9%90/" rel="tag">娱乐</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/" rel="tag">宝塔面板</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/" rel="tag">工具安装</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BF%83%E5%BE%97/" rel="tag">心得</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%80%BB%E7%BB%93/" rel="tag">总结</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="tag">服务器</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A8%A1%E6%9D%BF/" rel="tag">模板</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E6%AF%94/" rel="tag">科比</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AF%AE%E7%90%83/" rel="tag">篮球</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" rel="tag">编程语言</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BD%91%E7%BB%9C%E8%AF%BE/" rel="tag">网络课</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" rel="tag">阿里云</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/" rel="tag">零基础</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" rel="tag">黑科技</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io" target="_blank" rel="noopener">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://github.com/Chocolate666" target="_blank" rel="noopener">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://chocolate.blog.csdn.net/" target="_blank" rel="noopener">CSDN</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端，算法，坚持写好每一篇精彩博客！座右铭:学如逆水行舟，不进则退</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Yang Chao Yi</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/head.jpg" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">Yang Chao Yi</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">座右铭:学如逆水行舟，不进则退</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">文章归档</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/message/">关于我&amp;留言板</a></li>
+                
+                    <li><a href="/about/">个人简历</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa GitHub" target="_blank" href="https://github.com/Chocolate666/Chocolate.github.io" title="GitHub"></a>
+                            
+                                <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa CSDN" target="_blank" href="https://blog.csdn.net/weixin_42429718" title="CSDN"></a>
+                            
+                                <a class="fa 网易云音乐" target="_blank" href="http://music.163.com/m/user/home?id=1426571934" title="网易云音乐"></a>
+                            
+                                <a class="fa bilibili" target="_blank" href="https://space.bilibili.com/351534170" title="bilibili"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+</nav>
+      <div class="body-wrap"><article id="post-25 个有用的 Python 代码片段" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      
+
+<a href="/2020/02/12/25%20%E4%B8%AA%E6%9C%89%E7%94%A8%E7%9A%84%20Python%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/" class="article-date">
+    <time datetime="2020-02-12T13:21:47.027Z" itemprop="datePublished">2020-02-12</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      【Python 】25 个有用的 Python 代码片段来帮助你的日常工作
+    </h1>
+  
+
+        <!-- 开始添加字数统计-->
+        
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Python/">Python</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/" rel="tag">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/" rel="tag">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" rel="tag">编程语言</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p><img src="https://img-blog.csdnimg.cn/20200208132400835.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQyOTcxOA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" /></p>
+<h4 id="引言"><a class="markdownIt-Anchor" href="#引言"></a> 引言</h4>
+<p>Python 是一种通用的高级编程语言。用它可以做许多事，比如开发桌面 GUI 应用程序、网站和 Web 应用程序等。<br />
+并且，通过处理常见的编程任务，Python 能让开发者专注应用程序的核心功能。此外，Python 语言的简单语法规则进一步简化了代码库的可读性和应用程序的可维护性。</p>
+<p>与其他编程语言相比，Python 的优势在于：</p>
+<a id="more"></a>
+<ul>
+<li>与主要平台和操作系统兼容；</li>
+<li>有许多开源框架和工具；</li>
+<li>代码具备可读性和可维护性；</li>
+<li>健壮的标准库；</li>
+<li>标准测试驱动开发</li>
+</ul>
+<p>在本文，我将介绍 25 个简短且有用的代码段，它们可以帮你完成日常任务。</p>
+<blockquote>
+<p>参考英文资料：<a href="https://medium.com/better-programming/25-useful-python-snippets-to-help-in-your-day-to-day-work-d59c636ec1b" target="_blank" rel="noopener">25 Useful Python Snippets to Help in Your Day-to-Day Work</a></p>
+</blockquote>
+<h4 id="1-在两个变量之间交换值"><a class="markdownIt-Anchor" href="#1-在两个变量之间交换值"></a> 1. 在两个变量之间交换值</h4>
+<p>在其他语言中，要在两个变量间交换值而不是用第三个变量，我们要么使用算术运算符，要么使用位异或（Bitwise XOR）。在 Python 中，它就简单多了，如下所示。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">5</span></span><br><span class="line">b = <span class="number">10</span>                   </span><br><span class="line">a,b = b,a</span><br><span class="line">print(a) # <span class="number">10</span></span><br><span class="line">print(b) # <span class="number">5</span></span><br></pre></td></tr></table></figure>
+<h4 id="2-检查给定的数字是否为偶数"><a class="markdownIt-Anchor" href="#2-检查给定的数字是否为偶数"></a> 2. 检查给定的数字是否为偶数</h4>
+<p>如果给定的数字为偶数，则如下函数返回 Ture，否则返回 False。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">is_even</span><span class="params">(num)</span>:</span></span><br><span class="line">    return num % 2 == 0</span><br><span class="line">    </span><br><span class="line">is_even(<span class="number">10</span>) # True</span><br></pre></td></tr></table></figure>
+<h4 id="3-将多行字符串拆分为行列表"><a class="markdownIt-Anchor" href="#3-将多行字符串拆分为行列表"></a> 3. 将多行字符串拆分为行列表</h4>
+<p>以下函数可用于将多行字符串拆分为行列表。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">split_lines</span><span class="params">(s)</span>:</span></span><br><span class="line">    return s.split('\n')</span><br><span class="line">split_lines('50\n python\n snippets') # ['50', ' python', ' snippets']</span><br></pre></td></tr></table></figure>
+<h4 id="4-查找对象使用的内存"><a class="markdownIt-Anchor" href="#4-查找对象使用的内存"></a> 4. 查找对象使用的内存</h4>
+<p>标准库的 sys 模块提供了 getsizeof() 函数。该函数接受一个对象，调用对象的 sizeof() 方法，并返回结果，这样做能使对象可检查。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line">print(sys.getsizeof(<span class="number">5</span>)) # <span class="number">28</span></span><br><span class="line">print(sys.getsizeof(<span class="string">"Python"</span>)) # <span class="number">55</span></span><br></pre></td></tr></table></figure>
+<h4 id="5-反转字符串"><a class="markdownIt-Anchor" href="#5-反转字符串"></a> 5. 反转字符串</h4>
+<p>Python 字符串库不像其他 Python 容器（如 list) 那样支持内置的 reverse()。反转字符串有很多方法，其中最简单的方法是使用切片运算符（slicing operator）。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">language = <span class="string">"python"</span></span><br><span class="line">reversed_language = language[::<span class="number">-1</span>]</span><br><span class="line">print(reversed_language) # nohtyp</span><br></pre></td></tr></table></figure>
+<h4 id="6-打印字符串-n-次"><a class="markdownIt-Anchor" href="#6-打印字符串-n-次"></a> 6. 打印字符串 n 次</h4>
+<p>在不使用循环的情况下，要打印一个字符串 n 次是非常容易的，如下所示。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">repeat</span><span class="params">(<span class="built_in">string</span>, n)</span>:</span></span><br><span class="line"><span class="function">    <span class="title">return</span> <span class="params">(<span class="built_in">string</span> * n)</span></span></span><br><span class="line"><span class="function">    </span></span><br><span class="line">repeat('python', 3) # pythonpythonpython</span><br></pre></td></tr></table></figure>
+<h4 id="7-检查字符串是否为回文"><a class="markdownIt-Anchor" href="#7-检查字符串是否为回文"></a> 7. 检查字符串是否为回文</h4>
+<p>以下函数用于检查字符串是否为回文。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">palindrome</span><span class="params">(<span class="built_in">string</span>)</span>:</span></span><br><span class="line"><span class="function">    <span class="keyword">return</span> <span class="built_in">string</span> </span>== <span class="built_in">string</span>[::<span class="number">-1</span>]</span><br><span class="line">    </span><br><span class="line">palindrome('python') # False</span><br></pre></td></tr></table></figure>
+<h4 id="8-将字符串列表合并为单个字符串"><a class="markdownIt-Anchor" href="#8-将字符串列表合并为单个字符串"></a> 8. 将字符串列表合并为单个字符串</h4>
+<p>下面的代码段将字符串列表组合成单个字符串。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">strings = ['50', 'python', 'snippets']</span><br><span class="line">print(<span class="string">','</span>.join(strings)) # <span class="number">50</span>,python,snippets</span><br></pre></td></tr></table></figure>
+<h4 id="9-查找列表的第一个元素"><a class="markdownIt-Anchor" href="#9-查找列表的第一个元素"></a> 9. 查找列表的第一个元素</h4>
+<p>此函数返回所传递列表的第一个元素。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">head</span><span class="params">(<span class="built_in">list</span>)</span>:</span></span><br><span class="line">  return list[0]</span><br><span class="line">  </span><br><span class="line">print(head([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>])) # <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<h4 id="10-查找存在于两个列表中任一列表存在的元素"><a class="markdownIt-Anchor" href="#10-查找存在于两个列表中任一列表存在的元素"></a> 10. 查找存在于两个列表中任一列表存在的元素</h4>
+<p>此函数返回两个列表中任一列表中的每个元素。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">union</span><span class="params">(a,b)</span>:</span></span><br><span class="line"><span class="function">    <span class="keyword">return</span> <span class="title">list</span><span class="params">(<span class="built_in">set</span>(a + b))</span></span></span><br><span class="line">union([1, 2, 3, 4, 5], [6, 2, 8, 1, 4]) # [1,2,3,4,5,6,8]</span><br></pre></td></tr></table></figure>
+<h4 id="11-查找给定列表中的所有唯一元素"><a class="markdownIt-Anchor" href="#11-查找给定列表中的所有唯一元素"></a> 11. 查找给定列表中的所有唯一元素</h4>
+<p>此函数返回给定列表中存在的唯一元素。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">unique_elements</span><span class="params">(numbers)</span>:</span></span><br><span class="line"><span class="function">    <span class="keyword">return</span> <span class="title">list</span><span class="params">(<span class="built_in">set</span>(numbers))</span></span></span><br><span class="line"><span class="function">    </span></span><br><span class="line">unique_elements([1, 2, 3, 2, 4]) # [1, 2, 3, 4]</span><br></pre></td></tr></table></figure>
+<h4 id="12-求一组数字的平均值"><a class="markdownIt-Anchor" href="#12-求一组数字的平均值"></a> 12. 求一组数字的平均值</h4>
+<p>此函数返回列表中两个或多个数字的平均值。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">average</span><span class="params">(*args)</span>:</span></span><br><span class="line">  return sum(args, 0.0) / len(args)</span><br><span class="line">  </span><br><span class="line">average(<span class="number">5</span>, <span class="number">8</span>, <span class="number">2</span>) # <span class="number">5.0</span></span><br></pre></td></tr></table></figure>
+<h4 id="13-检查列表是否包含所有唯一值"><a class="markdownIt-Anchor" href="#13-检查列表是否包含所有唯一值"></a> 13. 检查列表是否包含所有唯一值</h4>
+<p>此函数检查列表中的所有元素是否都是唯一的。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">unique</span><span class="params">(<span class="built_in">list</span>)</span>:</span></span><br><span class="line"><span class="function">    <span class="keyword">if</span> <span class="title">len</span><span class="params">(<span class="built_in">list</span>)</span></span>==len(<span class="built_in">set</span>(<span class="built_in">list</span>)):</span><br><span class="line">        print(<span class="string">"All elements are unique"</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        print(<span class="string">"List has duplicates"</span>)</span><br><span class="line">        </span><br><span class="line">unique([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]) # All elements are unique</span><br></pre></td></tr></table></figure>
+<h4 id="14-跟踪列表中元素的频率"><a class="markdownIt-Anchor" href="#14-跟踪列表中元素的频率"></a> 14. 跟踪列表中元素的频率</h4>
+<p>Python 计数器跟踪容器中每个元素的频率。 Counter() 返回一个以元素为键、以其出现频率为值的字典。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">from collections <span class="keyword">import</span> Counter</span><br><span class="line"><span class="built_in">list</span> = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">3</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">count = Counter(<span class="built_in">list</span>)</span><br><span class="line">print(count) # &#123;<span class="number">2</span>: <span class="number">3</span>, <span class="number">3</span>: <span class="number">3</span>, <span class="number">1</span>: <span class="number">1</span>, <span class="number">4</span>: <span class="number">1</span>&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="15-查找列表中最常用的元素"><a class="markdownIt-Anchor" href="#15-查找列表中最常用的元素"></a> 15. 查找列表中最常用的元素</h4>
+<p>此函数返回列表中出现频率最高的元素。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">most_frequent</span><span class="params">(<span class="built_in">list</span>)</span>:</span></span><br><span class="line"><span class="function">    <span class="keyword">return</span> <span class="title">max</span><span class="params">(<span class="built_in">set</span>(<span class="built_in">list</span>), key = <span class="built_in">list</span>.count)</span></span></span><br><span class="line"><span class="function">    </span></span><br><span class="line"><span class="function">numbers </span>= [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">3</span>, <span class="number">1</span>, <span class="number">3</span>]</span><br><span class="line">most_frequent(numbers) # <span class="number">3</span></span><br></pre></td></tr></table></figure>
+<h4 id="16-将角度转换为弧度"><a class="markdownIt-Anchor" href="#16-将角度转换为弧度"></a> 16. 将角度转换为弧度</h4>
+<p>下面的函数用于将角度转换为弧度。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="function">def <span class="title">degrees_to_radians</span><span class="params">(deg)</span>:</span></span><br><span class="line">    return (deg * math.pi) / 180.0 </span><br><span class="line">    </span><br><span class="line">degrees_to_radians(<span class="number">90</span>) # <span class="number">1.5707963267948966</span></span><br></pre></td></tr></table></figure>
+<h4 id="17-计算执行一段代码所需的时间"><a class="markdownIt-Anchor" href="#17-计算执行一段代码所需的时间"></a> 17. 计算执行一段代码所需的时间</h4>
+<p>以下代码段用于计算执行一段代码所需的时间。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line">start_time = time.time()</span><br><span class="line">a,b = <span class="number">5</span>,<span class="number">10</span></span><br><span class="line">c = a+b</span><br><span class="line">end_time = time.time()</span><br><span class="line">time_taken = (end_time- start_time)*(<span class="number">10</span>**<span class="number">6</span>)</span><br><span class="line">print(<span class="string">"Time taken in micro_seconds:"</span>, time_taken) # Time taken in micro_seconds: <span class="number">39.577484130859375</span></span><br></pre></td></tr></table></figure>
+<h4 id="18-查找数字列表的最大公约数"><a class="markdownIt-Anchor" href="#18-查找数字列表的最大公约数"></a> 18. 查找数字列表的最大公约数</h4>
+<p>此函数计算数字列表中的最大公约数。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">from functools <span class="keyword">import</span> reduce</span><br><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="function">def <span class="title">gcd</span><span class="params">(numbers)</span>:</span></span><br><span class="line"><span class="function">    <span class="keyword">return</span> <span class="title">reduce</span><span class="params">(math.gcd, numbers)</span></span></span><br><span class="line">gcd([24,108,90]) # 6</span><br></pre></td></tr></table></figure>
+<h4 id="19-查找字符串中的唯一字符"><a class="markdownIt-Anchor" href="#19-查找字符串中的唯一字符"></a> 19. 查找字符串中的唯一字符</h4>
+<p>此代码段可用于查找字符串中的所有唯一字符。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> = <span class="string">"abcbcabdb"</span>   </span><br><span class="line">unique = <span class="built_in">set</span>(<span class="built_in">string</span>)</span><br><span class="line">new_string = ''.join(unique)</span><br><span class="line">print(new_string) <span class="meta"># abcd</span></span><br></pre></td></tr></table></figure>
+<h4 id="20-使用-lambda-函数"><a class="markdownIt-Anchor" href="#20-使用-lambda-函数"></a> 20. 使用 lambda 函数</h4>
+<p>Lambda 是一个匿名函数，它只能保存一个表达式。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = lambda a, b, c : a + b + c</span><br><span class="line">print(x(<span class="number">5</span>, <span class="number">10</span>, <span class="number">20</span>)) # <span class="number">35</span></span><br></pre></td></tr></table></figure>
+<h4 id="21-使用映射函数"><a class="markdownIt-Anchor" href="#21-使用映射函数"></a> 21. 使用映射函数</h4>
+<p>此函数在将给定函数应用于给定迭代的每个项（列表、元组等）之后，返回一个结果列表。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">multiply</span><span class="params">(n)</span>: </span></span><br><span class="line"><span class="function">    <span class="keyword">return</span> n * n </span></span><br><span class="line"><span class="function">    </span></span><br><span class="line"><span class="function"><span class="built_in">list</span> </span>= (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>) </span><br><span class="line">result = <span class="built_in">map</span>(multiply, <span class="built_in">list</span>) </span><br><span class="line">print(<span class="built_in">list</span>(result)) # &#123;<span class="number">1</span>, <span class="number">4</span>, <span class="number">9</span>&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="22-使用筛选函数"><a class="markdownIt-Anchor" href="#22-使用筛选函数"></a> 22. 使用筛选函数</h4>
+<p>此函数在通过一个函数过滤给定的序列，测试序列中的每个元素是否为真。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line">arr = <span class="built_in">list</span>(filter(lambda x : x%<span class="number">2</span> == <span class="number">0</span>, arr))</span><br><span class="line">print (arr) # [<span class="number">2</span>, <span class="number">4</span>]</span><br></pre></td></tr></table></figure>
+<h4 id="23-使用列表解析"><a class="markdownIt-Anchor" href="#23-使用列表解析"></a> 23. 使用列表解析</h4>
+<p>列表解析（list comprehensions）为我们提供了一种基于某些迭代创建列表的简单方法。在创建过程中，可以将来自可迭代的元素有条件地包含到新列表中，并根据需要进行转换。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">numbers = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">squares = [number**<span class="number">2</span> <span class="keyword">for</span> number in numbers]</span><br><span class="line">print(squares) # [<span class="number">1</span>, <span class="number">4</span>, <span class="number">9</span>]</span><br></pre></td></tr></table></figure>
+<h4 id="24-使用切片运算符"><a class="markdownIt-Anchor" href="#24-使用切片运算符"></a> 24. 使用切片运算符</h4>
+<p>切片（Slicing）用于从给定序列中提取连续的元素序列或子序列。下面的函数用于连接两个切片运算的结果。首先，我们将列表从索引 d 切片到末尾，然后从开头切片到索引 d。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">rotate</span><span class="params">(arr, d)</span>:</span></span><br><span class="line">    return arr[d:] + arr[:d]</span><br><span class="line">    </span><br><span class="line">if __name__ == '__main__':</span><br><span class="line">    arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line">    arr = rotate(arr, <span class="number">2</span>)</span><br><span class="line">    print (arr) # [<span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">1</span>, <span class="number">2</span>]</span><br></pre></td></tr></table></figure>
+<h4 id="25-使用函数链式调用"><a class="markdownIt-Anchor" href="#25-使用函数链式调用"></a> 25. 使用函数链式调用</h4>
+<p>最后的代码段用于从一行调用多个函数并计算结果。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">def <span class="title">add</span><span class="params">(a, b)</span>:</span></span><br><span class="line">    return a + b</span><br><span class="line"><span class="function">def <span class="title">subtract</span><span class="params">(a, b)</span>:</span></span><br><span class="line">    return a - b</span><br><span class="line">a, b = <span class="number">5</span>, <span class="number">10</span></span><br><span class="line">print((subtract <span class="keyword">if</span> a &gt; b <span class="keyword">else</span> add)(a, b)) # <span class="number">15</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">学如逆水行舟，不进则退</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2020/02/12/25%20%E4%B8%AA%E6%9C%89%E7%94%A8%E7%9A%84%20Python%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/">【Python 】25 个有用的 Python 代码片段来帮助你的日常工作</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">Yang Chao Yi</a></p>
+        <p><span>发布时间:</span>2020-02-12, 21:21:47</p>
+        <p><span>最后更新:</span>2020-02-12, 21:57:02</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2020/02/12/25%20%E4%B8%AA%E6%9C%89%E7%94%A8%E7%9A%84%20Python%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/" title="【Python 】25 个有用的 Python 代码片段来帮助你的日常工作">http://yangchaoyi.vip/2020/02/12/25%20%E4%B8%AA%E6%9C%89%E7%94%A8%E7%9A%84%20Python%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yangchaoyi.vip/2020/02/12/25%20%E4%B8%AA%E6%9C%89%E7%94%A8%E7%9A%84%20Python%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/　　作者: Yang Chao Yi" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/2020/02/12/%E8%BF%99%E6%88%96%E8%AE%B8%E6%98%AF%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%80%E7%9C%9F%E5%AE%9E%E5%B7%A5%E4%BD%9C%E7%B2%BE%E7%A5%9E%E7%8A%B6%E6%80%81%EF%BC%9F/">
+                    2020 这或许是程序员最真实工作精神状态？
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2020/02/12/%E7%BD%91%E7%BB%9C%E8%AF%BE%20%E6%99%BA%E6%85%A7%E6%A0%91/">
+                    2020 网络课 智慧树自动刷课代码，自动跳转，自动答题并关闭弹窗，自动1.5倍速静音
+                </a>
+            </div>
+        
+    </nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#引言"><span class="toc-number">1.</span> <span class="toc-text"> 引言</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-在两个变量之间交换值"><span class="toc-number">2.</span> <span class="toc-text"> 1. 在两个变量之间交换值</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-检查给定的数字是否为偶数"><span class="toc-number">3.</span> <span class="toc-text"> 2. 检查给定的数字是否为偶数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-将多行字符串拆分为行列表"><span class="toc-number">4.</span> <span class="toc-text"> 3. 将多行字符串拆分为行列表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-查找对象使用的内存"><span class="toc-number">5.</span> <span class="toc-text"> 4. 查找对象使用的内存</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-反转字符串"><span class="toc-number">6.</span> <span class="toc-text"> 5. 反转字符串</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-打印字符串-n-次"><span class="toc-number">7.</span> <span class="toc-text"> 6. 打印字符串 n 次</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-检查字符串是否为回文"><span class="toc-number">8.</span> <span class="toc-text"> 7. 检查字符串是否为回文</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#8-将字符串列表合并为单个字符串"><span class="toc-number">9.</span> <span class="toc-text"> 8. 将字符串列表合并为单个字符串</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#9-查找列表的第一个元素"><span class="toc-number">10.</span> <span class="toc-text"> 9. 查找列表的第一个元素</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#10-查找存在于两个列表中任一列表存在的元素"><span class="toc-number">11.</span> <span class="toc-text"> 10. 查找存在于两个列表中任一列表存在的元素</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#11-查找给定列表中的所有唯一元素"><span class="toc-number">12.</span> <span class="toc-text"> 11. 查找给定列表中的所有唯一元素</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#12-求一组数字的平均值"><span class="toc-number">13.</span> <span class="toc-text"> 12. 求一组数字的平均值</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#13-检查列表是否包含所有唯一值"><span class="toc-number">14.</span> <span class="toc-text"> 13. 检查列表是否包含所有唯一值</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#14-跟踪列表中元素的频率"><span class="toc-number">15.</span> <span class="toc-text"> 14. 跟踪列表中元素的频率</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#15-查找列表中最常用的元素"><span class="toc-number">16.</span> <span class="toc-text"> 15. 查找列表中最常用的元素</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#16-将角度转换为弧度"><span class="toc-number">17.</span> <span class="toc-text"> 16. 将角度转换为弧度</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#17-计算执行一段代码所需的时间"><span class="toc-number">18.</span> <span class="toc-text"> 17. 计算执行一段代码所需的时间</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#18-查找数字列表的最大公约数"><span class="toc-number">19.</span> <span class="toc-text"> 18. 查找数字列表的最大公约数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#19-查找字符串中的唯一字符"><span class="toc-number">20.</span> <span class="toc-text"> 19. 查找字符串中的唯一字符</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#20-使用-lambda-函数"><span class="toc-number">21.</span> <span class="toc-text"> 20. 使用 lambda 函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#21-使用映射函数"><span class="toc-number">22.</span> <span class="toc-text"> 21. 使用映射函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#22-使用筛选函数"><span class="toc-number">23.</span> <span class="toc-text"> 22. 使用筛选函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#23-使用列表解析"><span class="toc-number">24.</span> <span class="toc-text"> 23. 使用列表解析</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#24-使用切片运算符"><span class="toc-number">25.</span> <span class="toc-text"> 24. 使用切片运算符</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#25-使用函数链式调用"><span class="toc-number">26.</span> <span class="toc-text"> 25. 使用函数链式调用</span></a></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"【Python 】25 个有用的 Python 代码片段来帮助你的日常工作　| Chocolate's Blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
+
+
+
+
+
+
+
+    
+        <!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC80ODU5OS8yNTA5Mw==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2020/02/12/%E8%BF%99%E6%88%96%E8%AE%B8%E6%98%AF%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%80%E7%9C%9F%E5%AE%9E%E5%B7%A5%E4%BD%9C%E7%B2%BE%E7%A5%9E%E7%8A%B6%E6%80%81%EF%BC%9F/" title="上一篇: 2020 这或许是程序员最真实工作精神状态？">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2020/02/12/%E7%BD%91%E7%BB%9C%E8%AF%BE%20%E6%99%BA%E6%85%A7%E6%A0%91/" title="下一篇: 2020 网络课 智慧树自动刷课代码，自动跳转，自动答题并关闭弹窗，自动1.5倍速静音">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/WordPress%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2/">【超详细】基于 Docker搭建 WordPress动态博客（一行命令搭建博客系统）</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%99%A8/">完全免费的下载神器，这速度，还需要IDM吗？</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/win10%E5%AE%B6%E5%BA%AD%E7%89%88%E5%AE%89%E8%A3%85%20Docker%20for%20Windows/">win10家庭版安装 Docker for Windows</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E6%84%BF%E8%BF%9C%E6%96%B9%E4%BE%9D%E6%97%A7%E6%9C%89%E7%AF%AE%E7%90%83%E4%B8%BA%E4%BC%B4%20%E8%87%B4%E6%95%AC24%E5%8F%B7%20%E7%A7%91%E6%AF%94/">2020 愿远方依旧有篮球为伴 致敬24号 科比</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFMySQL%E9%80%9A%E8%BF%87Navicat%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%20%E3%80%90%E6%95%B4%E7%90%86%E3%80%91/">2020 零基础教宝塔面板MySQL通过Navicat连接数据库 【整理】</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%A2%86%E5%9F%9F%E7%9C%9F%E7%9A%84%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84%E5%90%97/">2020（有感而发）常说"三分技术，七分人品" 在计算机领域真的是这样的吗？</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E8%BF%99%E6%88%96%E8%AE%B8%E6%98%AF%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%80%E7%9C%9F%E5%AE%9E%E5%B7%A5%E4%BD%9C%E7%B2%BE%E7%A5%9E%E7%8A%B6%E6%80%81%EF%BC%9F/">2020 这或许是程序员最真实工作精神状态？</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/25%20%E4%B8%AA%E6%9C%89%E7%94%A8%E7%9A%84%20Python%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/">【Python 】25 个有用的 Python 代码片段来帮助你的日常工作</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E7%BD%91%E7%BB%9C%E8%AF%BE%20%E6%99%BA%E6%85%A7%E6%A0%91/">2020 网络课 智慧树自动刷课代码，自动跳转，自动答题并关闭弹窗，自动1.5倍速静音</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/Vue%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%BC%80%E5%8F%91%E7%94%B5%E5%95%86%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">2020 零基础到快速开发  Vue全家桶开发电商管理系统（Element-UI）【目录】</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E5%88%B7%E5%AE%8C%E6%8B%BF%E4%B8%8D%E5%88%B0%E5%A5%96%E9%9A%8F%E4%BE%BF%E6%89%93%EF%BC%81/">【ACM刷题专题】这个假期一起来刷题把，刷完冲击区域赛，刷完拿不到奖随便打！</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/Hexo%20yilia%E4%B8%BB%E9%A2%98%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E3%80%90%E6%95%B4%E5%90%88%E7%9B%AE%E5%BD%95%E3%80%91/">【Win10】Hexo yelee主题 搭建个人主页【整合目录】</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/11/acm%E6%80%BB%E7%BB%93/">2020  我把大学四年ACM模板分享了出来【总结】 ACMer一定要来看！</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2020 Yang Chao Yi
+            </div>
+            <div class="footer-right">
+                author: yangchaoyi <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+
+
+            <br>
+        <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+        <script>
+            var now = new Date(); 
+            function createtime() { 
+                var grt= new Date("02/11/2020 10:24:41");//此处修改你的建站时间或者网站上线时间 
+                now.setTime(now.getTime()+250); 
+                days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+                hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+                if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+                mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+                seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+                snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+                document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+                document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+            } 
+        setInterval("createtime()",250);
+        </script>
+
+
+    </div>
+</footer>
+    </div>
+    
+    
+<script src="/js/GithubRepoWidget.js"></script>
+
+
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 2;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+             github: ".github-widget a", 
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+
+
+<script type="text/javascript" src="/resources/love.js"></script>
+<script type="text/javascript" src="/resources/float.js"></script>
+<script type="text/javascript" src="/resources/typewriter.js"></script>
+<script type="text/javascript" color=0,104,183 opacity=1 zindex=-1 count=50 src="/resources/particle.js"></script>
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>

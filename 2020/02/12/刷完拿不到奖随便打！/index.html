@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="author" content="Yang Chao Yi" />
+
+
+
+<meta name="description" content="1、引言 持续更新中!这个漫长的假期，对于acm爱好者来说，是提升自己的黄金时期，但是一个人做题往往效率不是很高，于是想了又想，想创建一个多人学习的平台及环境，这样既能让自己好好保持状态，也能让看到的人受到影响一起刷题！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【ACM刷题专题】这个假期一起来刷题把，刷完冲击区域赛，刷完拿不到奖随便打！">
+<meta property="og:url" content="http://yangchaoyi.vip/2020/02/12/%E5%88%B7%E5%AE%8C%E6%8B%BF%E4%B8%8D%E5%88%B0%E5%A5%96%E9%9A%8F%E4%BE%BF%E6%89%93%EF%BC%81/index.html">
+<meta property="og:site_name" content="Chocolate&#39;s Blog">
+<meta property="og:description" content="1、引言 持续更新中!这个漫长的假期，对于acm爱好者来说，是提升自己的黄金时期，但是一个人做题往往效率不是很高，于是想了又想，想创建一个多人学习的平台及环境，这样既能让自己好好保持状态，也能让看到的人受到影响一起刷题！">
+<meta property="article:published_time" content="2020-02-12T12:49:54.019Z">
+<meta property="article:modified_time" content="2020-02-12T13:41:14.411Z">
+<meta property="article:author" content="Yang Chao Yi">
+<meta property="article:tag" content="yelee主题">
+<meta property="article:tag" content="acm">
+<meta property="article:tag" content="刷题">
+<meta name="twitter:card" content="summary">
+
+<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="Chocolate&#39;s Blog" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/img/favicon.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/yellow/pace-theme-minimal.css" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>【ACM刷题专题】这个假期一起来刷题把，刷完冲击区域赛，刷完拿不到奖随便打！ | Chocolate&#39;s Blog</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: false,
+        isPost: true,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: true
+    }
+</script>
+
+
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?c1d5a78eab5d8a833cbb8f70d139938c";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+
+<meta name="generator" content="Hexo 4.2.0"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
+<body>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/head.jpg" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">Yang Chao Yi</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">座右铭:学如逆水行舟，不进则退</p>
+        
+
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">文章归档</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/message/">关于我&amp;留言板</a></li>
+                        
+                            <li><a href="/about/">个人简历</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa GitHub" href="https://github.com/Chocolate666/Chocolate.github.io" target="_blank" rel="noopener" title="GitHub"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa CSDN" href="https://blog.csdn.net/weixin_42429718" target="_blank" rel="noopener" title="CSDN"></a>
+                            
+                                <a class="fa 网易云音乐" href="http://music.163.com/m/user/home?id=1426571934" target="_blank" rel="noopener" title="网易云音乐"></a>
+                            
+                                <a class="fa bilibili" href="https://space.bilibili.com/351534170" target="_blank" rel="noopener" title="bilibili"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/24%E5%8F%B7/" rel="tag">24号</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Docker/" rel="tag">Docker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IDM/" rel="tag">IDM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NBA/" rel="tag">NBA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Navicat/" rel="tag">Navicat</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Win10/" rel="tag">Win10</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/WordPress/" rel="tag">WordPress</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/acm/" rel="tag">acm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/" rel="tag">github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/" rel="tag">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vue/" rel="tag">vue</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yelee%E4%B8%BB%E9%A2%98/" rel="tag">yelee主题</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%A5%87/" rel="tag">下载神奇</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%B7%E8%AF%BE/" rel="tag">刷课</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%B7%E9%A2%98/" rel="tag">刷题</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A8%B1%E4%B9%90/" rel="tag">娱乐</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/" rel="tag">宝塔面板</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/" rel="tag">工具安装</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BF%83%E5%BE%97/" rel="tag">心得</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%80%BB%E7%BB%93/" rel="tag">总结</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="tag">服务器</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A8%A1%E6%9D%BF/" rel="tag">模板</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%91%E6%AF%94/" rel="tag">科比</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AF%AE%E7%90%83/" rel="tag">篮球</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" rel="tag">编程语言</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BD%91%E7%BB%9C%E8%AF%BE/" rel="tag">网络课</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91/" rel="tag">阿里云</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/" rel="tag">零基础</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%BB%91%E7%A7%91%E6%8A%80/" rel="tag">黑科技</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io" target="_blank" rel="noopener">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://github.com/Chocolate666" target="_blank" rel="noopener">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://chocolate.blog.csdn.net/" target="_blank" rel="noopener">CSDN</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端，算法，坚持写好每一篇精彩博客！座右铭:学如逆水行舟，不进则退</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Yang Chao Yi</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/head.jpg" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">Yang Chao Yi</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">座右铭:学如逆水行舟，不进则退</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">文章归档</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/message/">关于我&amp;留言板</a></li>
+                
+                    <li><a href="/about/">个人简历</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa GitHub" target="_blank" href="https://github.com/Chocolate666/Chocolate.github.io" title="GitHub"></a>
+                            
+                                <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                            
+                                <a class="fa CSDN" target="_blank" href="https://blog.csdn.net/weixin_42429718" title="CSDN"></a>
+                            
+                                <a class="fa 网易云音乐" target="_blank" href="http://music.163.com/m/user/home?id=1426571934" title="网易云音乐"></a>
+                            
+                                <a class="fa bilibili" target="_blank" href="https://space.bilibili.com/351534170" title="bilibili"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+</nav>
+      <div class="body-wrap"><article id="post-刷完拿不到奖随便打！" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      
+
+<a href="/2020/02/12/%E5%88%B7%E5%AE%8C%E6%8B%BF%E4%B8%8D%E5%88%B0%E5%A5%96%E9%9A%8F%E4%BE%BF%E6%89%93%EF%BC%81/" class="article-date">
+    <time datetime="2020-02-12T12:49:54.019Z" itemprop="datePublished">2020-02-12</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      【ACM刷题专题】这个假期一起来刷题把，刷完冲击区域赛，刷完拿不到奖随便打！
+    </h1>
+  
+
+        <!-- 开始添加字数统计-->
+        
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B%E2%9D%A4/">心路历程❤</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/acm/" rel="tag">acm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/yelee%E4%B8%BB%E9%A2%98/" rel="tag">yelee主题</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%88%B7%E9%A2%98/" rel="tag">刷题</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h4 id="1-引言"><a class="markdownIt-Anchor" href="#1-引言"></a> 1、引言</h4>
+<p><code>持续更新中!</code>这个漫长的假期，对于acm爱好者来说，是提升自己的黄金时期，但是一个人做题往往效率不是很高，于是想了又想，想创建一个多人学习的平台及环境，这样既能让自己好好保持状态，也能让看到的人受到影响一起刷题！</p>
+<a id="more"></a>
+<hr>
+<table><td bgcolor="87CEFA" ><font color=white size="4"  >     必看提醒   </td></table>
+<p>所有的题我都会安排在 Vj 上，如果还在犹豫或者大家需要板子的话，推荐阅读这篇文章：<a href="https://blog.csdn.net/weixin_42429718/article/details/104091170" target="_blank" rel="noopener">2020 我把大学四年ACM模板分享了出来【总结】 ACMer一定要来看！</a></p>
+<p>重要的事说三遍！！！</p>
+<p><font size=5>先给这篇文章点赞再刷题！</p>
+<p><font size=5>先给这篇文章点赞再刷题！</p>
+<p><font size=5>先给这篇文章点赞再刷题！</p>
+<p>制作不易，后期可能会考虑只有粉丝才可见，所以不妨关注一波，本人也是今天从零开始刷，本vj持续更新时间暂定两个月，会结合自己实际情况和访问量来变化时间。</p>
+<p><font color=red size=5>学如逆水行舟，不进则退！</p>
+<table><td bgcolor="87CEFA" ><font color=white size="4"  >     vj题目地址（持续更新中，欢迎来AK）   </td></table>
+<p><a href="https://vjudge.net/contest/355775#panel-problems" target="_blank" rel="noopener">【两个月刷题计划】专题一 简单搜索</a></p>
+<p><a href="https://vjudge.net/contest/355780#overview" target="_blank" rel="noopener">【两个月刷题计划】专题二 搜索进阶<br />
+</a></p>
+<hr>
+<p><font color=chocolate size=5>由于篇幅所限，题目地址改到这篇博客，望周知：</p>
+<p><a href="https://blog.csdn.net/weixin_42429718/article/details/104207758" target="_blank" rel="noopener">【acm专题分类】刷题计划 附题目地址 （两个月持续更新中）</a></p>
+<h4 id="2-专题分享"><a class="markdownIt-Anchor" href="#2-专题分享"></a> 2、专题分享</h4>
+<p>下面就是准备要公开为期两个月的题目专题，大家可以简单查阅一下，题目专题来自kuangbin专题，感谢大佬的分享！</p>
+<h5 id="21-专题一-简单搜索"><a class="markdownIt-Anchor" href="#21-专题一-简单搜索"></a> 2.1 专题一 简单搜索</h5>
+<p>POJ 1321 棋盘问题<br />
+POJ 2251 Dungeon Master<br />
+POJ 3278 Catch That Cow<br />
+POJ 3279 Fliptile<br />
+POJ 1426 Find The Multiple<br />
+POJ 3126 Prime Path<br />
+POJ 3087 Shuffle’m Up<br />
+POJ 3414 Pots<br />
+FZU 2150 Fire Game<br />
+UVA 11624 Fire!<br />
+POJ 3984 迷宫问题<br />
+HDU 1241 Oil Deposits<br />
+HDU 1495 非常可乐<br />
+HDU 2612 Find a way</p>
+<h5 id="22-专题二-搜索进阶"><a class="markdownIt-Anchor" href="#22-专题二-搜索进阶"></a> 2.2 专题二 搜索进阶</h5>
+<p>HDU 1043 Eight<br />
+HDU 3567 Eight II<br />
+HDU 2181 哈密顿绕行世界问题<br />
+HDU 3533 Escape<br />
+HDU 1560 DNA sequence<br />
+ZOJ 2477 Magic Cube<br />
+HDU 3085 Nightmare Ⅱ<br />
+HDU 1067 Gap<br />
+HDU 2102 A计划<br />
+HDU 3001 Travelling</p>
+<h5 id="23-专题三-dancing-links舞蹈链"><a class="markdownIt-Anchor" href="#23-专题三-dancing-links舞蹈链"></a> 2.3 专题三 Dancing Links舞蹈链</h5>
+<p>HUST 1017 Exact cover<br />
+ZOJ 3209 Treasure Map<br />
+HDU 2295 Radar<br />
+FZU 1686 神龙的难题<br />
+POJ 1084 Square Destroyer<br />
+POJ 3074 Sudoku<br />
+ZOJ 3122 Sudoku<br />
+HDU 4069 Squiggly Sudoku<br />
+HDU 3335 Divisibility<br />
+HDU 4979 A simple math problem.<br />
+HDU 5046 Airport</p>
+<h5 id="24-专题四-最短路练习"><a class="markdownIt-Anchor" href="#24-专题四-最短路练习"></a> 2.4 专题四 最短路练习</h5>
+<p>POJ 2387 Til the Cows Come Home<br />
+POJ 2253 Frogger<br />
+POJ 1797 Heavy Transportation<br />
+POJ 3268 Silver Cow Party<br />
+POJ 1860 Currency Exchange<br />
+POJ 3259 Wormholes<br />
+POJ 1502 MPI Maelstrom<br />
+POJ 3660 Cow Contest<br />
+POJ 2240 Arbitrage<br />
+POJ 1511 Invitation Cards<br />
+POJ 3159 Candies<br />
+POJ 2502 Subway<br />
+POJ 1062 昂贵的聘礼<br />
+POJ 1847 Tram<br />
+LightOJ 1074 Extended Traffic<br />
+HDU 4725 The Shortest Path in Nya Graph<br />
+HDU 3416 Marriage Match IV<br />
+HDU 4370 0 or 1<br />
+POJ 3169 Layout</p>
+<h5 id="25-专题五-并查集"><a class="markdownIt-Anchor" href="#25-专题五-并查集"></a> 2.5 专题五 并查集</h5>
+<p>POJ 2236 Wireless Network<br />
+POJ 1611 The Suspects<br />
+HDU 1213 How Many Tables<br />
+HDU 3038 How Many Answers Are Wrong<br />
+POJ 1182 食物链<br />
+POJ 1417 True Liars<br />
+POJ 1456 Supermarket<br />
+POJ 1733 Parity game<br />
+POJ 1984 Navigation Nightmare<br />
+POJ 2492 A Bug’s Life<br />
+POJ 2912 Rochambeau<br />
+ZOJ 3261 Connections in Galaxy War<br />
+HDU 1272 小希的迷宫<br />
+POJ 1308 Is It A Tree?</p>
+<h5 id="26-专题六-最小生成树"><a class="markdownIt-Anchor" href="#26-专题六-最小生成树"></a> 2.6 专题六 最小生成树</h5>
+<p>POJ 1251 Jungle Roads<br />
+POJ 1287 Networking<br />
+POJ 2031 Building a Space Station<br />
+POJ 2421 Constructing Roads<br />
+ZOJ 1586 QS Network<br />
+POJ 1789 Truck History<br />
+POJ 2349 Arctic Network<br />
+POJ 1751 Highways<br />
+POJ 1258 Agri-Net<br />
+POJ 3026 Borg Maze<br />
+POJ 1679 The Unique MST<br />
+HDU 1233 还是畅通工程<br />
+HDU 1301 Jungle Roads<br />
+HDU 1875 畅通工程再续</p>
+<h5 id="27专题七-线段树"><a class="markdownIt-Anchor" href="#27专题七-线段树"></a> 2.7专题七 线段树</h5>
+<p>HDU 1166 敌兵布阵<br />
+HDU 1754 I Hate It<br />
+POJ 3468 A Simple Problem with Integers<br />
+POJ 2528 Mayor’s posters<br />
+HDU 1698 Just a Hook<br />
+ZOJ 1610 Count the Colors<br />
+POJ 3264 Balanced Lineup<br />
+HDU 4027 Can you answer these queries?<br />
+HDU 1540 Tunnel Warfare<br />
+HDU 3974 Assign the task<br />
+HDU 4578 Transformation<br />
+HDU 4614 Vases and Flowers<br />
+HDU 4553 约会安排<br />
+POJ 1177 Picture<br />
+HDU 1255 覆盖的面积<br />
+HDU 1542 Atlantis<br />
+HDU 3642 Get The Treasury</p>
+<h5 id="28-专题八-生成树"><a class="markdownIt-Anchor" href="#28-专题八-生成树"></a> 2.8 专题八 生成树</h5>
+<p>POJ 1679 The Unique MST<br />
+HDU 4081 Qin Shi Huang’s National Road System<br />
+UVA 10600 ACM Contest and Blackout<br />
+UVA 10462 Is There A Second Way Left?<br />
+POJ 3164 Command Network<br />
+UVA 11183 Teen Girl Squad<br />
+HDU 2121 Ice_cream’s world II<br />
+HDU 4009 Transfer water<br />
+UVA 10766 Organising the Organisation<br />
+SPOJ DETER3 Find The Determinant III<br />
+URAL 1627 Join<br />
+HDU 4305 Lightning<br />
+HDU 4408 Minimum Spanning Tree<br />
+SPOJ HIGH Highways</p>
+<h5 id="29-专题九-连通图"><a class="markdownIt-Anchor" href="#29-专题九-连通图"></a> 2.9 专题九 连通图</h5>
+<p>POJ 1236 Network of Schools<br />
+UVA 315 Network<br />
+UVA 796 Critical Links<br />
+POJ 3694 Network<br />
+POJ 3177 Redundant Paths<br />
+HDU 4612 Warm up<br />
+HDU 4635 Strongly connected<br />
+HDU 4685 Prince and Princess<br />
+HDU 4738 Caocao’s Bridges</p>
+<h5 id="210-专题十-匹配问题"><a class="markdownIt-Anchor" href="#210-专题十-匹配问题"></a> 2.10 专题十 匹配问题</h5>
+<p>HDU 1045 Fire Net<br />
+HDU 2444 The Accomodation of Students<br />
+HDU 1083 Courses<br />
+HDU 1281 棋盘游戏<br />
+HDU 2819 Swap<br />
+HDU 2389 Rain on your Parade<br />
+HDU 4185 Oil Skimming<br />
+POJ 3020 Antenna Placement<br />
+HDU 1054 Strategic Game<br />
+HDU 1151 Air Raid<br />
+POJ 2594 Treasure Exploration<br />
+HDU 3829 Cat VS Dog<br />
+POJ 2289 Jamie’s Contact Groups<br />
+POJ 2112 Optimal Milking<br />
+POJ 3189 Steady Cow Assignment<br />
+HDU 2255 奔小康赚大钱<br />
+HDU 3488 Tour<br />
+URAL 1099 Work Scheduling<br />
+HDU 4687 Boke and Tsukkomi</p>
+<h5 id="211-专题十一-网络流"><a class="markdownIt-Anchor" href="#211-专题十一-网络流"></a> 2.11 专题十一 网络流</h5>
+<p>POJ 3436 ACM Computer Factory<br />
+POJ 3281 Dining<br />
+POJ 1087 A Plug for UNIX<br />
+POJ 2195 Going Home<br />
+POJ 2516 Minimum Cost<br />
+POJ 1459 Power Network<br />
+HDU 4280 Island Transport<br />
+HDU 4292 Food<br />
+HDU 4289 Control<br />
+UVA 10480 Sabotage<br />
+HDU 2732 Leapin’ Lizards<br />
+HDU 3338 Kakuro Extension<br />
+HDU 3605 Escape<br />
+HDU 3081 Marriage Match II<br />
+HDU 3416 Marriage Match IV</p>
+<h5 id="212-专题十二-基础dp1"><a class="markdownIt-Anchor" href="#212-专题十二-基础dp1"></a> 2.12 专题十二 基础DP1</h5>
+<p>HDU 1024 Max Sum Plus Plus<br />
+HDU 1029 Ignatius and the Princess IV<br />
+HDU 1069 Monkey and Banana<br />
+HDU 1074 Doing Homework<br />
+HDU 1087 Super Jumping! Jumping! Jumping!<br />
+HDU 1114 Piggy-Bank<br />
+HDU 1176 免费馅饼<br />
+HDU 1260 Tickets<br />
+HDU 1257 最少拦截系统<br />
+HDU 1160 FatMouse’s Speed<br />
+POJ 1015 Jury Compromise<br />
+POJ 1458 Common Subsequence<br />
+POJ 1661 Help Jimmy<br />
+POJ 2533 Longest Ordered Subsequence<br />
+POJ 3186 Treats for the Cows<br />
+HDU 1078 FatMouse and Cheese<br />
+HDU 2859 Phalanx<br />
+POJ 3616 Milking Time<br />
+POJ 3666 Making the Grade</p>
+<h5 id="213-专题十三-基础计算几何"><a class="markdownIt-Anchor" href="#213-专题十三-基础计算几何"></a> 2.13 专题十三 基础计算几何</h5>
+<p>POJ 2318 TOYS<br />
+POJ 2398 Toy Storage<br />
+POJ 3304 Segments<br />
+POJ 1269 Intersecting Lines<br />
+POJ 1556 The Doors<br />
+POJ 2653 Pick-up sticks<br />
+POJ 1066 Treasure Hunt<br />
+POJ 1410 Intersection<br />
+POJ 1696 Space Ant<br />
+POJ 3347 Kadj Squares<br />
+POJ 2826 An Easy Problem?!<br />
+POJ 1039 Pipe<br />
+POJ 3449 Geometric Shapes<br />
+POJ 1584 A Round Peg in a Ground Hole</p>
+<h5 id="214-专题十四-数论基础"><a class="markdownIt-Anchor" href="#214-专题十四-数论基础"></a> 2.14 专题十四 数论基础</h5>
+<p>LightOJ 1370 Bi-shoe and Phi-shoe<br />
+LightOJ 1356 Prime Independence<br />
+LightOJ 1341 Aladdin and the Flying Carpet<br />
+LightOJ 1336 Sigma Function<br />
+LightOJ 1282 Leading and Trailing<br />
+LightOJ 1259 Goldbach`s Conjecture<br />
+LightOJ 1245 Harmonic Number (II)<br />
+LightOJ 1236 Pairs Forming LCM<br />
+LightOJ 1234 Harmonic Number<br />
+LightOJ 1220 Mysterious Bacteria<br />
+LightOJ 1214 Large Division<br />
+LightOJ 1213 Fantasy of a Summation<br />
+LightOJ 1197 Help Hanzo<br />
+LightOJ 1138 Trailing Zeroes (III)<br />
+UVA 11426 GCD - Extreme (II)<br />
+UVA 11754 Code Feat<br />
+UVA 11916 Emoogle Grid<br />
+POJ 1061 青蛙的约会<br />
+POJ 2115 C Looooops<br />
+POJ 2116 Death to Binary?<br />
+HDU 2161 Primes<br />
+UVA 11827 Maximum GCD<br />
+UVA 10200 Prime Time<br />
+SGU 106 The equation<br />
+POJ 2478 Farey Sequence<br />
+UVA 11752 The Super Powers</p>
+<h5 id="215-专题十五-数位dp"><a class="markdownIt-Anchor" href="#215-专题十五-数位dp"></a> 2.15 专题十五 数位DP</h5>
+<p>CodeForces 55D Beautiful numbers<br />
+HDU 4352 XHXJ’s LIS<br />
+HDU 2089 不要62<br />
+HDU 3555 Bomb<br />
+POJ 3252 Round Numbers<br />
+HDU 3709 Balanced Number<br />
+HDU 3652 B-number<br />
+HDU 4734 F(x)<br />
+ZOJ 3494 BCD Code<br />
+HDU 4507 吉哥系列故事――恨7不成妻<br />
+SPOJ BALNUM Balanced Numbers</p>
+<h5 id="216-专题十六-kmp-扩展kmp-manacher"><a class="markdownIt-Anchor" href="#216-专题十六-kmp-扩展kmp-manacher"></a> 2.16 专题十六 KMP &amp; 扩展KMP &amp; Manacher</h5>
+<p>HDU 1711 Number Sequence<br />
+HDU 1686 Oulipo<br />
+HDU 2087 剪花布条<br />
+HDU 3746 Cyclic Nacklace<br />
+HDU 1358 Period<br />
+HUST 1010 The Minimum Length<br />
+POJ 2406 Power Strings<br />
+POJ 2752 Seek the Name, Seek the Fame<br />
+POJ 3080 Blue Jeans<br />
+HDU 2594 Simpsons’ Hidden Talents<br />
+HDU 3336 Count the string<br />
+HDU 4300 Clairewd’s message<br />
+HDU 1238 Substrings<br />
+HDU 2328 Corporate Identity<br />
+HDU 3374 String Problem<br />
+HDU 2609 How many<br />
+FZU 1901 Period II<br />
+POJ 3746 Teacher YYF<br />
+HDU 3613 Best Reward<br />
+POJ 3376 Finding Palindromes<br />
+POJ 3974 Palindrome<br />
+HDU 4513 吉哥系列故事――完美队形II<br />
+HDU 3294 Girls’ research<br />
+HDU 3068 最长回文<br />
+HDU 4847 Wow! Such Doge!<br />
+HDU 4763 Theme Section</p>
+<h5 id="217-专题十七-ac自动机"><a class="markdownIt-Anchor" href="#217-专题十七-ac自动机"></a> 2.17 专题十七 AC自动机</h5>
+<p>HDU 2222 Keywords Search<br />
+HDU 2896 病毒侵袭<br />
+HDU 3065 病毒侵袭持续中<br />
+ZOJ 3430 Detect the Virus<br />
+POJ 2778 DNA Sequence<br />
+HDU 2243 考研路茫茫――单词情结<br />
+POJ 1625 Censored!<br />
+HDU 2825 Wireless Password<br />
+HDU 2296 Ring<br />
+HDU 2457 DNA repair<br />
+ZOJ 3228 Searching the String<br />
+HDU 3341 Lost’s revenge<br />
+HDU 3247 Resource Archiver<br />
+ZOJ 3494 BCD Code<br />
+HDU 4758 Walk Through Squares<br />
+HDU 4511 小明系列故事――女友的考验</p>
+<h5 id="218-专题十八-后缀数组"><a class="markdownIt-Anchor" href="#218-专题十八-后缀数组"></a> 2.18 专题十八 后缀数组</h5>
+<p>POJ 1743 Musical Theme<br />
+POJ 3261 Milk Patterns<br />
+SPOJ DISUBSTR Distinct Substrings<br />
+SPOJ SUBST1 New Distinct Substrings<br />
+POJ 2406 Power Strings<br />
+SPOJ REPEATS Repeats<br />
+POJ 3693 Maximum repetition substring<br />
+POJ 2774 Long Long Message<br />
+POJ 3415 Common Substrings<br />
+POJ 3294 Life Forms<br />
+SPOJ PHRASES Relevant Phrases of Annihilation<br />
+POJ 1226 Substrings<br />
+UVA 11475 Extend to Palindrome<br />
+POJ 3581 Sequence<br />
+POJ 3450 Corporate Identity<br />
+POJ 3080 Blue Jeans<br />
+POJ 2758 Checking the Text</p>
+<h5 id="219-专题十九-矩阵"><a class="markdownIt-Anchor" href="#219-专题十九-矩阵"></a> 2.19 专题十九 矩阵</h5>
+<p>CodeForces 450B Jzzhu and Sequences<br />
+HDU 5015 233 Matrix<br />
+HDU 4990 Reading comprehension<br />
+UVA 11651 Krypton Number System<br />
+HDU 4965 Fast Matrix Calculation<br />
+UVA 11551 Experienced Endeavour<br />
+UVA 10689 Yet another Number Sequence<br />
+UVA 11149 Power of Matrix<br />
+UVA 10655 Contemplation! Algebra<br />
+UVA 1386 Cellular Automaton<br />
+UVA 10870 Recurrences<br />
+UVA 11885 Number of Battlefields<br />
+HDU 4565 So Easy!<br />
+CodeForces 392C Yet Another Number Sequence<br />
+CodeForces 385E Bear in the Field<br />
+FZU 1911 Construct a Matrix<br />
+UVA 10518 How Many Calls?<br />
+HDU 4549 M斐波那契数列<br />
+HDU 4686 Arc of Dream</p>
+<h5 id="220-专题二十-斜率dp"><a class="markdownIt-Anchor" href="#220-专题二十-斜率dp"></a> 2.20 专题二十 斜率DP</h5>
+<p>HDU 3507 Print Article<br />
+HDU 2829 Lawrence<br />
+HDU 4528 小明系列故事――捉迷藏<br />
+HDU 1300 Pearls<br />
+HDU 2993 MAX Average Problem<br />
+UVALive 5097 Cross the Wall<br />
+HDU 3045 Picnic Cows<br />
+HDU 3516 Tree Construction<br />
+POJ 1160 Post Office<br />
+POJ 1180 Batch Scheduling<br />
+POJ 2018 Best Cow Fences<br />
+POJ 3709 K-Anonymous Sequence<br />
+POJ 2841 Navigation Game<br />
+POJ 1260 Pearls<br />
+UVA 12594 Naming Babies<br />
+HDU 3480 Division<br />
+UVALive 6771 Buffed Buffet</p>
+<h5 id="221-专题二十一-概率期望"><a class="markdownIt-Anchor" href="#221-专题二十一-概率期望"></a> 2.21 专题二十一 概率&amp;期望</h5>
+<p>LightOJ 1027 A Dangerous Maze<br />
+LightOJ 1030 Discovering Gold<br />
+LightOJ 1038 Race to 1 Again<br />
+LightOJ 1079 Just another Robbery<br />
+LightOJ 1104 Birthday Paradox<br />
+LightOJ 1151 Snakes and Ladders<br />
+LightOJ 1248 Dice (III)<br />
+LightOJ 1265 Island of Survival<br />
+LightOJ 1274 Beating the Dataset<br />
+LightOJ 1284 Lights inside 3D Grid<br />
+LightOJ 1287 Where to Run<br />
+LightOJ 1317 Throwing Balls into the Baskets<br />
+LightOJ 1321 Sending Packets<br />
+LightOJ 1342 Aladdin and the Magical Sticks<br />
+LightOJ 1364 Expected Cards<br />
+LightOJ 1395 A Dangerous Maze (II)<br />
+LightOJ 1408 Batting Practice</p>
+<h5 id="222-专题二十二-区间dp"><a class="markdownIt-Anchor" href="#222-专题二十二-区间dp"></a> 2.22 专题二十二 区间DP</h5>
+<p>ZOJ 3537 Cake<br />
+LightOJ 1422 Halloween Costumes<br />
+POJ 2955 Brackets<br />
+CodeForces 149D Coloring Brackets<br />
+POJ 1651 Multiplication Puzzle<br />
+ZOJ 3469 Food Delivery<br />
+HDU 4283 You Are the One<br />
+HDU 2476 String painter</p>
+<h5 id="223-专题二十三-计算几何之半平面交"><a class="markdownIt-Anchor" href="#223-专题二十三-计算几何之半平面交"></a> 2.23 专题二十三 计算几何之半平面交</h5>
+<p>POJ 3335 Rotating Scoreboard<br />
+POJ 3130 How I Mathematician Wonder What You Are!<br />
+POJ 1474 Video Surveillance<br />
+POJ 1279 Art Gallery<br />
+POJ 3525 Most Distant Point from the Sea<br />
+POJ 3384 Feng Shui<br />
+POJ 1755 Triathlon<br />
+POJ 2540 Hotter Colder<br />
+POJ 2451 Uyuw’s Concert<br />
+POJ 1271 Nice Milk<br />
+UVA 11722 Joining with Friend<br />
+UVA 11722 he Sea<br />
+UVALive 7295 Positive Con Sequences<br />
+UVALive 7292 Refract Facts<br />
+UVALive 7297 Hounded by Indecision<br />
+UVALive 7346 Avoiding an Arrrgument<br />
+UVALive 7521 Kinfolk<br />
+UVALive 7347 Of the Children<br />
+UVALive 7348 Talking About Numbers<br />
+UVALive 7349 The Scheming Gardener<br />
+LightOJ 1433 Minimum Arc Distance<br />
+LightOJ 1387 Setu<br />
+LightOJ 1338 Hidden Secret!<br />
+LightOJ 1261 K-SAT Problem<br />
+LightOJ 1249 Chocolate Thief</p>
+<hr>
+<h4 id="3-专题过后训练"><a class="markdownIt-Anchor" href="#3-专题过后训练"></a> 3、专题过后训练</h4>
+<h5 id="训练一图论一"><a class="markdownIt-Anchor" href="#训练一图论一"></a> 训练一——图论一</h5>
+<p>LightOJ 1251 Forming the Council<br />
+LightOJ 1026 Critical Links<br />
+LightOJ 1063 Ant Hills<br />
+LightOJ 1291 Real Life Traffic<br />
+LightOJ 1308 Ant Network<br />
+LightOJ 1074 Extended Traffic<br />
+LightOJ 1108 Instant View of Big Bang<br />
+LightOJ 1221 Travel Company<br />
+LightOJ 1002 Country Roads<br />
+LightOJ 1029 Civil and Evil Engineer<br />
+LightOJ 1040 Donation<br />
+LightOJ 1041 Road Construction<br />
+LightOJ 1059 Air Ports<br />
+LightOJ 1123 Trail Maintenance<br />
+LightOJ 1124 Cricket Ranking<br />
+LightOJ 1380 Teleport<br />
+LightOJ 1384 Stream My Contest<br />
+LightOJ 1348 Aladdin and the Return Journey<br />
+LightOJ 1250 Village Postman<br />
+LightOJ 1256 Word Puzzle<br />
+LightOJ 1003 Drunk</p>
+<h5 id="训练二图论二匹配和网络流"><a class="markdownIt-Anchor" href="#训练二图论二匹配和网络流"></a> 训练二——图论二(匹配和网络流)</h5>
+<p>LightOJ 1149 Factors and Multiples<br />
+LightOJ 1150 Ghosts!<br />
+LightOJ 1152 Hiding Gold<br />
+LightOJ 1429 Assassin`s Creed (II)<br />
+LightOJ 1171 Knights in Chessboard (II)<br />
+LightOJ 1356 Prime Independence<br />
+LightOJ 1153 Internet Bandwidth<br />
+LightOJ 1154 Penguins<br />
+LightOJ 1155 Power Transmission<br />
+LightOJ 1156 Jumping Frogs<br />
+LightOJ 1167 Dangerous Tunnels<br />
+LightOJ 1176 Getting a T-shirt<br />
+LightOJ 1177 Angry Programmer<br />
+LightOJ 1330 Binary Matrix<br />
+LightOJ 1405 The Great Escape<br />
+LightOJ 1071 Baker Vai<br />
+LightOJ 1222 Gift Packing<br />
+LightOJ 1237 Cyber Cafe<br />
+LightOJ 1243 Guardian Knights<br />
+LightOJ 1290 The Great Merger<br />
+LightOJ 1198 Karate Competition<br />
+LightOJ 1431 The Party for the Rich</p>
+<h5 id="训练三字符串"><a class="markdownIt-Anchor" href="#训练三字符串"></a> 训练三——字符串</h5>
+<p>LightOJ 1427 Substring Frequency (II)<br />
+LightOJ 1258 Making Huge Palindromes<br />
+LightOJ 1268 Unlucky Strings<br />
+LightOJ 1334 Genes in DNA<br />
+LightOJ 1428 Melody Comparison<br />
+LightOJ 1314 Names for Babies<br />
+LightOJ 1347 Aladdin and the Magical Lamp</p>
+<h5 id="训练四计算几何"><a class="markdownIt-Anchor" href="#训练四计算几何"></a> 训练四——计算几何</h5>
+<p>LightOJ 1056 Olympics<br />
+LightOJ 1062 Crossed Ladders<br />
+LightOJ 1130 Intersection between Circle and Rectangle<br />
+LightOJ 1137 Expanding Rods<br />
+LightOJ 1190 Sleepwalking<br />
+LightOJ 1208 Dangerous Bull! Who Wants to Pull?<br />
+LightOJ 1260 Race Track<br />
+LightOJ 1292 Laser Shot<br />
+LightOJ 1320 Farmers` Tale<br />
+LightOJ 1346 Aladdin and the Rocky Mountains<br />
+LightOJ 1358 Fukushima Nuclear Blast<br />
+LightOJ 1432 Overlapping Sticks<br />
+LightOJ 1203 Guarding Bananas<br />
+LightOJ 1239 Convex Fence<br />
+LightOJ 1285 Drawing Simple Polygon<br />
+LightOJ 1313 Protect the Mines<br />
+LightOJ 1418 Trees on My Island</p>
+<h5 id="shu训练五矩阵"><a class="markdownIt-Anchor" href="#shu训练五矩阵"></a> SHU训练五——矩阵</h5>
+<p>LightOJ 1151 Snakes and Ladders<br />
+LightOJ 1272 Maximum Subset Sum<br />
+LightOJ 1279 Graph Coloring<br />
+LightOJ 1288 Subsets Forming Perfect Squares<br />
+LightOJ 1052 String Growth<br />
+LightOJ 1065 Number Sequence<br />
+LightOJ 1070 Algebraic Problem<br />
+LightOJ 1131 Just Two Functions<br />
+LightOJ 1132 Summing up Powers<br />
+LightOJ 1142 Summing up Powers (II)<br />
+LightOJ 1160 Discovering Paths in Grid<br />
+LightOJ 1172 Krypton Number System<br />
+LightOJ 1244 Tiles<br />
+LightOJ 1268 Unlucky Strings<br />
+LightOJ 1332 Kings in Chessboard<br />
+LightOJ 1376 Tetromino</p>
+<h5 id="shu训练六博弈"><a class="markdownIt-Anchor" href="#shu训练六博弈"></a> SHU训练六——博弈</h5>
+<p>LightOJ 1355 Game of CS<br />
+LightOJ 1186 Incredible Chess<br />
+LightOJ 1192 Left Right<br />
+LightOJ 1247 Matrix Game<br />
+LightOJ 1253 Misere Nim<br />
+LightOJ 1393 Crazy Calendar<br />
+LightOJ 1199 Partitioning Game<br />
+LightOJ 1229 Treblecross<br />
+LightOJ 1296 Again Stone Game<br />
+LightOJ 1315 Game of Hyper Knights<br />
+LightOJ 1344 Aladdin and the Game of Bracelets<br />
+LightOJ 1401 No More Tic-tac-toe</p>
+<h5 id="shu训练七数论"><a class="markdownIt-Anchor" href="#shu训练七数论"></a> SHU训练七——数论</h5>
+<p>LightOJ 1007 Mathematically Hard<br />
+LightOJ 1024 Eid<br />
+LightOJ 1028 Trailing Zeroes (I)<br />
+LightOJ 1035 Intelligent Factorial Factorization<br />
+LightOJ 1045 Digits of Factorial<br />
+LightOJ 1067 Combinations<br />
+LightOJ 1077 How Many Points?<br />
+LightOJ 1090 Trailing Zeroes (II)<br />
+LightOJ 1098 A New Function<br />
+LightOJ 1109 False Ordering<br />
+LightOJ 1138 Trailing Zeroes (III)<br />
+LightOJ 1163 Bank Robbery<br />
+LightOJ 1197 Help Hanzo<br />
+LightOJ 1213 Fantasy of a Summation<br />
+LightOJ 1214 Large Division<br />
+LightOJ 1215 Finding LCM<br />
+LightOJ 1220 Mysterious Bacteria<br />
+LightOJ 1234 Harmonic Number<br />
+LightOJ 1236 Pairs Forming LCM<br />
+LightOJ 1245 Harmonic Number (II)<br />
+LightOJ 1259 Goldbach`s Conjecture<br />
+LightOJ 1278 Sum of Consecutive Integers</p>
+<table><td bgcolor="87CEFA" ><font color=white size="4"  >    还未结束，持续更新中...   </td></table>
+<h4 id="4-总结"><a class="markdownIt-Anchor" href="#4-总结"></a> 4、总结</h4>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">学如逆水行舟，不进则退</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2020/02/12/%E5%88%B7%E5%AE%8C%E6%8B%BF%E4%B8%8D%E5%88%B0%E5%A5%96%E9%9A%8F%E4%BE%BF%E6%89%93%EF%BC%81/">【ACM刷题专题】这个假期一起来刷题把，刷完冲击区域赛，刷完拿不到奖随便打！</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">Yang Chao Yi</a></p>
+        <p><span>发布时间:</span>2020-02-12, 20:49:54</p>
+        <p><span>最后更新:</span>2020-02-12, 21:41:14</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2020/02/12/%E5%88%B7%E5%AE%8C%E6%8B%BF%E4%B8%8D%E5%88%B0%E5%A5%96%E9%9A%8F%E4%BE%BF%E6%89%93%EF%BC%81/" title="【ACM刷题专题】这个假期一起来刷题把，刷完冲击区域赛，刷完拿不到奖随便打！">http://yangchaoyi.vip/2020/02/12/%E5%88%B7%E5%AE%8C%E6%8B%BF%E4%B8%8D%E5%88%B0%E5%A5%96%E9%9A%8F%E4%BE%BF%E6%89%93%EF%BC%81/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yangchaoyi.vip/2020/02/12/%E5%88%B7%E5%AE%8C%E6%8B%BF%E4%B8%8D%E5%88%B0%E5%A5%96%E9%9A%8F%E4%BE%BF%E6%89%93%EF%BC%81/　　作者: Yang Chao Yi" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/2020/02/12/Vue%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%BC%80%E5%8F%91%E7%94%B5%E5%95%86%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">
+                    2020 零基础到快速开发  Vue全家桶开发电商管理系统（Element-UI）【目录】
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2020/02/12/Hexo%20yilia%E4%B8%BB%E9%A2%98%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E3%80%90%E6%95%B4%E5%90%88%E7%9B%AE%E5%BD%95%E3%80%91/">
+                    【Win10】Hexo yelee主题 搭建个人主页【整合目录】
+                </a>
+            </div>
+        
+    </nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-引言"><span class="toc-number">1.</span> <span class="toc-text"> 1、引言</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-专题分享"><span class="toc-number">2.</span> <span class="toc-text"> 2、专题分享</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#21-专题一-简单搜索"><span class="toc-number">2.1.</span> <span class="toc-text"> 2.1 专题一 简单搜索</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#22-专题二-搜索进阶"><span class="toc-number">2.2.</span> <span class="toc-text"> 2.2 专题二 搜索进阶</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#23-专题三-dancing-links舞蹈链"><span class="toc-number">2.3.</span> <span class="toc-text"> 2.3 专题三 Dancing Links舞蹈链</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#24-专题四-最短路练习"><span class="toc-number">2.4.</span> <span class="toc-text"> 2.4 专题四 最短路练习</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#25-专题五-并查集"><span class="toc-number">2.5.</span> <span class="toc-text"> 2.5 专题五 并查集</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#26-专题六-最小生成树"><span class="toc-number">2.6.</span> <span class="toc-text"> 2.6 专题六 最小生成树</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#27专题七-线段树"><span class="toc-number">2.7.</span> <span class="toc-text"> 2.7专题七 线段树</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#28-专题八-生成树"><span class="toc-number">2.8.</span> <span class="toc-text"> 2.8 专题八 生成树</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#29-专题九-连通图"><span class="toc-number">2.9.</span> <span class="toc-text"> 2.9 专题九 连通图</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#210-专题十-匹配问题"><span class="toc-number">2.10.</span> <span class="toc-text"> 2.10 专题十 匹配问题</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#211-专题十一-网络流"><span class="toc-number">2.11.</span> <span class="toc-text"> 2.11 专题十一 网络流</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#212-专题十二-基础dp1"><span class="toc-number">2.12.</span> <span class="toc-text"> 2.12 专题十二 基础DP1</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#213-专题十三-基础计算几何"><span class="toc-number">2.13.</span> <span class="toc-text"> 2.13 专题十三 基础计算几何</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#214-专题十四-数论基础"><span class="toc-number">2.14.</span> <span class="toc-text"> 2.14 专题十四 数论基础</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#215-专题十五-数位dp"><span class="toc-number">2.15.</span> <span class="toc-text"> 2.15 专题十五 数位DP</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#216-专题十六-kmp-扩展kmp-manacher"><span class="toc-number">2.16.</span> <span class="toc-text"> 2.16 专题十六 KMP &amp; 扩展KMP &amp; Manacher</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#217-专题十七-ac自动机"><span class="toc-number">2.17.</span> <span class="toc-text"> 2.17 专题十七 AC自动机</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#218-专题十八-后缀数组"><span class="toc-number">2.18.</span> <span class="toc-text"> 2.18 专题十八 后缀数组</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#219-专题十九-矩阵"><span class="toc-number">2.19.</span> <span class="toc-text"> 2.19 专题十九 矩阵</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#220-专题二十-斜率dp"><span class="toc-number">2.20.</span> <span class="toc-text"> 2.20 专题二十 斜率DP</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#221-专题二十一-概率期望"><span class="toc-number">2.21.</span> <span class="toc-text"> 2.21 专题二十一 概率&amp;期望</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#222-专题二十二-区间dp"><span class="toc-number">2.22.</span> <span class="toc-text"> 2.22 专题二十二 区间DP</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#223-专题二十三-计算几何之半平面交"><span class="toc-number">2.23.</span> <span class="toc-text"> 2.23 专题二十三 计算几何之半平面交</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-专题过后训练"><span class="toc-number">3.</span> <span class="toc-text"> 3、专题过后训练</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#训练一图论一"><span class="toc-number">3.1.</span> <span class="toc-text"> 训练一——图论一</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#训练二图论二匹配和网络流"><span class="toc-number">3.2.</span> <span class="toc-text"> 训练二——图论二(匹配和网络流)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#训练三字符串"><span class="toc-number">3.3.</span> <span class="toc-text"> 训练三——字符串</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#训练四计算几何"><span class="toc-number">3.4.</span> <span class="toc-text"> 训练四——计算几何</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#shu训练五矩阵"><span class="toc-number">3.5.</span> <span class="toc-text"> SHU训练五——矩阵</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#shu训练六博弈"><span class="toc-number">3.6.</span> <span class="toc-text"> SHU训练六——博弈</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#shu训练七数论"><span class="toc-number">3.7.</span> <span class="toc-text"> SHU训练七——数论</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-总结"><span class="toc-number">4.</span> <span class="toc-text"> 4、总结</span></a></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"【ACM刷题专题】这个假期一起来刷题把，刷完冲击区域赛，刷完拿不到奖随便打！　| Chocolate's Blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
+
+
+
+
+
+
+
+    
+        <!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC80ODU5OS8yNTA5Mw==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2020/02/12/Vue%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%BC%80%E5%8F%91%E7%94%B5%E5%95%86%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" title="上一篇: 2020 零基础到快速开发  Vue全家桶开发电商管理系统（Element-UI）【目录】">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2020/02/12/Hexo%20yilia%E4%B8%BB%E9%A2%98%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E3%80%90%E6%95%B4%E5%90%88%E7%9B%AE%E5%BD%95%E3%80%91/" title="下一篇: 【Win10】Hexo yelee主题 搭建个人主页【整合目录】">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/WordPress%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2/">【超详细】基于 Docker搭建 WordPress动态博客（一行命令搭建博客系统）</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%9A%84%E4%B8%8B%E8%BD%BD%E7%A5%9E%E5%99%A8/">完全免费的下载神器，这速度，还需要IDM吗？</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/win10%E5%AE%B6%E5%BA%AD%E7%89%88%E5%AE%89%E8%A3%85%20Docker%20for%20Windows/">win10家庭版安装 Docker for Windows</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E6%84%BF%E8%BF%9C%E6%96%B9%E4%BE%9D%E6%97%A7%E6%9C%89%E7%AF%AE%E7%90%83%E4%B8%BA%E4%BC%B4%20%E8%87%B4%E6%95%AC24%E5%8F%B7%20%E7%A7%91%E6%AF%94/">2020 愿远方依旧有篮球为伴 致敬24号 科比</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFMySQL%E9%80%9A%E8%BF%87Navicat%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93%20%E3%80%90%E6%95%B4%E7%90%86%E3%80%91/">2020 零基础教宝塔面板MySQL通过Navicat连接数据库 【整理】</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%A2%86%E5%9F%9F%E7%9C%9F%E7%9A%84%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84%E5%90%97/">2020（有感而发）常说"三分技术，七分人品" 在计算机领域真的是这样的吗？</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E8%BF%99%E6%88%96%E8%AE%B8%E6%98%AF%E7%A8%8B%E5%BA%8F%E5%91%98%E6%9C%80%E7%9C%9F%E5%AE%9E%E5%B7%A5%E4%BD%9C%E7%B2%BE%E7%A5%9E%E7%8A%B6%E6%80%81%EF%BC%9F/">2020 这或许是程序员最真实工作精神状态？</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/25%20%E4%B8%AA%E6%9C%89%E7%94%A8%E7%9A%84%20Python%20%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/">【Python 】25 个有用的 Python 代码片段来帮助你的日常工作</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E7%BD%91%E7%BB%9C%E8%AF%BE%20%E6%99%BA%E6%85%A7%E6%A0%91/">2020 网络课 智慧树自动刷课代码，自动跳转，自动答题并关闭弹窗，自动1.5倍速静音</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/Vue%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%BC%80%E5%8F%91%E7%94%B5%E5%95%86%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">2020 零基础到快速开发  Vue全家桶开发电商管理系统（Element-UI）【目录】</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/%E5%88%B7%E5%AE%8C%E6%8B%BF%E4%B8%8D%E5%88%B0%E5%A5%96%E9%9A%8F%E4%BE%BF%E6%89%93%EF%BC%81/">【ACM刷题专题】这个假期一起来刷题把，刷完冲击区域赛，刷完拿不到奖随便打！</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/12/Hexo%20yilia%E4%B8%BB%E9%A2%98%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E3%80%90%E6%95%B4%E5%90%88%E7%9B%AE%E5%BD%95%E3%80%91/">【Win10】Hexo yelee主题 搭建个人主页【整合目录】</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/02/11/acm%E6%80%BB%E7%BB%93/">2020  我把大学四年ACM模板分享了出来【总结】 ACMer一定要来看！</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2020 Yang Chao Yi
+            </div>
+            <div class="footer-right">
+                author: yangchaoyi <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+
+
+            <br>
+        <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+        <script>
+            var now = new Date(); 
+            function createtime() { 
+                var grt= new Date("02/11/2020 10:24:41");//此处修改你的建站时间或者网站上线时间 
+                now.setTime(now.getTime()+250); 
+                days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+                hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+                if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+                mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+                seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+                snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+                document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+                document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+            } 
+        setInterval("createtime()",250);
+        </script>
+
+
+    </div>
+</footer>
+    </div>
+    
+    
+<script src="/js/GithubRepoWidget.js"></script>
+
+
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 2;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+             github: ".github-widget a", 
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+
+
+<script type="text/javascript" src="/resources/love.js"></script>
+<script type="text/javascript" src="/resources/float.js"></script>
+<script type="text/javascript" src="/resources/typewriter.js"></script>
+<script type="text/javascript" color=0,104,183 opacity=1 zindex=-1 count=50 src="/resources/particle.js"></script>
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
+</html>
